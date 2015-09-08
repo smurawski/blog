@@ -1,0 +1,31 @@
+environment:
+  matrix:
+    - ruby_version: "200"
+
+clone_folder: c:\projects\blog
+clone_depth: 1
+skip_tags: true
+branches:
+  only:
+    - master
+
+cache:
+  - C:\Ruby200\lib\ruby\gems\2.0.0
+  - C:\Ruby200\bin
+
+install:
+  - SET PATH=C:\Ruby%ruby_version%\bin;%PATH%
+  - echo %PATH%
+  - ruby --version
+  - gem install bundler --quiet --no-ri --no-rdoc || gem install bundler --quiet --no-ri --no-rdoc || gem install bundler --quiet --no-ri --no-rdoc
+  - gem install rubygems-pkg/rubygems-update-2.4.6.gem
+  - update_rubygems
+  - gem --version
+  - bundler --version
+
+build_script:
+  - bundle install || bundle install || bundle install
+  - jekyll build
+  - 7za a -tzip deploy.zip _site/*
+  - appveyor PushArtifact deploy.zip -Type WebDeployPackage
+ 
