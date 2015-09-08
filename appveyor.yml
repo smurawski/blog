@@ -26,5 +26,6 @@ build_script:
   - jekyll build
   - cd _site
   - 7z a -tzip c:\projects\blog\deploy.zip .\
+  - cd ..
   - appveyor PushArtifact deploy.zip -Type WebDeployPackage
  
