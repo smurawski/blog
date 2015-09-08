@@ -24,6 +24,6 @@ install:
 build_script:
   - bundle install || bundle install || bundle install
   - jekyll build
-  - 7z a -tzip deploy.zip _site/*
+  - 7z a -tzip deploy.zip .\_site\
   - appveyor PushArtifact deploy.zip -Type WebDeployPackage
  
