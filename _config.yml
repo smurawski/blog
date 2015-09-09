@@ -11,4 +11,5 @@ twitter_username: stevenmurawski
 github_username:  smurawski
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+markdown_ext: markdown, md
