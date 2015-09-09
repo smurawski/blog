@@ -28,4 +28,12 @@ build_script:
   - 7z a -tzip c:\projects\blog\deploy.zip .\
   - cd ..
   - appveyor PushArtifact deploy.zip -Type WebDeployPackage
- 
+
+deploy:
+- provider: WebDeploy
+  server: https://stevenmurawski.scm.azurewebsites.net:443/msdeploy..axd?site=stevenmurawski
+  website: stevenmurawski
+  username: $stevenmurawski
+  password:
+    secure: D7J8hUxui5QdUfZdV3KExmTDHJXzzrpz6kwMy0M9Ph4NIL1CinfnneEb4jN8e4XpOY3lA732m1cxsqYJp7F+Zw==
+  remove_files: true
