@@ -31,7 +31,7 @@ build_script:
 
 deploy:
 - provider: WebDeploy
-  server: https://stevenmurawski.scm.azurewebsites.net:443/msdeploy..axd?site=stevenmurawski
+  server: https://stevenmurawski.scm.azurewebsites.net:443/msdeploy.axd?site=stevenmurawski
   website: stevenmurawski
   username: $stevenmurawski
   password:
