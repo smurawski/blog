@@ -51,10 +51,11 @@ Now that we have Chef installed, we can create a Chef repo in which we'll build 
 
 In our shell, 
 
-
+```
 cd c:/
 chef generate repo workstation-repo
-cd workstation-repo</pre>
+cd workstation-repo
+```
     
     ## Step 3 - create our wrapper cookbook
     
@@ -64,16 +65,21 @@ cd workstation-repo</pre>
     
     
     In our shell 
-    <pre>pushd cookbooks
+
+```
+pushd cookbooks
 chef generate cookbook local --copyright 'Steven Murawski' --email 'someone@some.mail.com' --license apache2
-popd</pre>
+popd
+```
     
     ## Step 4 - Update cookbook metadata
     
     
     
     I mentioned that we would be using this as a wrapper for (my fork of) Adam Edward's winbox cookbook. To do this, we'll add a dependency in the cookbook metadata. In cookbooks/local/metadata.rb
-    <pre>name 'local'
+
+```
+name 'local'
 maintainer 'Steven Murawski'
 maintainer_email 'someone@some.mail.com'
 license 'apache2'
@@ -81,7 +87,9 @@ description 'Installs/Configures local'
 long_description 'Installs/Configures local'
 version '0.1.0'
 depends 'winbox', '= 0.1.50'
-</pre>
+
+```
+
     
     Cookbook dependencies can be resolved in a number of ways, but for today we are going to use Berkshelf which is a common dependency resolution tool that ships with ChefDK.
     
@@ -90,9 +98,13 @@ depends 'winbox', '= 0.1.50'
     
     
     In cookbooks/local/Berksfile
-    <pre>source 'https://supermarket.chef.io'
+    
+```
+source 'https://supermarket.chef.io'
 metadata
-cookbook 'winbox', git: 'https://github.com/smurawski/winbox.git', branch: 'smurawski/updates'</pre>
+cookbook 'winbox', git: 'https://github.com/smurawski/winbox.git', branch: 'smurawski/updates'
+```
+
     
     This will tell Berkshelf to look in my GitHub repository for the winbox cookbook. Any other cookbooks that are required will be pulled from the [Chef Supermarket](https://supermarket.chef.io).
     
@@ -108,13 +120,17 @@ cookbook 'winbox', git: 'https://github.com/smurawski/winbox.git', branch: 'smur
     
     
     In cookbooks/local/recipes/default.rb
-    <pre>include_recipe 'git'
+    
+```
+include_recipe 'git'
 include_recipe 'winbox::chocolatey_install'
 include_recipe 'winbox::powershell_dev'
 include_recipe 'winbox::readline'
 include_recipe 'winbox::editor'
 include_recipe 'winbox::console'
-include_recipe 'winbox::git'</pre>
+include_recipe 'winbox::git'
+```
+
     
     Right off the bat, you may wonder where the git (really git::default) recipe is coming from. Well, the winbox cookbook has the git cookbook as a dependency.
     
@@ -127,13 +143,21 @@ include_recipe 'winbox::git'</pre>
     
     
     In our shell 
-    <pre>chef generate attribute cookbooks/local default</pre>
+    
+```
+chef generate attribute cookbooks/local default
+```
+
     
     Then we open up cookbooks/local/attributes/default.rb and add
-    <pre>
+    
+```
+
 # override the create_profile setting from the winbox cookbook
 default['winbox']['create_profile'] = false
-</pre>
+
+```
+
     
     ## Step 7 - Adding some software packages
     
@@ -147,21 +171,33 @@ default['winbox']['create_profile'] = false
     
     
     First, let's add the following to cookbooks/local/attributes/default.rb
-    <pre># packages to install
-default['local']['packages'] = %w[7zip winmerge sysinternals]</pre>
+    
+```
+# packages to install
+default['local']['packages'] = %w[7zip winmerge sysinternals]
+```
+
     
     Next, we'll create a recipe to handle the installation of those packages. In our shell, 
-    <pre>
-chef generate recipe cookbooks/local packages --copyright 'Steven Murawski' --license apache2</pre>
+    
+```
+
+chef generate recipe cookbooks/local packages --copyright 'Steven Murawski' --license apache2
+```
+
     
     Then, we'll add to cookbooks/local/recipes/packages
-    <pre>node['local']['packages'].each do |package|
+    
+```
+node['local']['packages'].each do |package|
   powershell_script "Install #{package}" do
     code "choco install -y #{package}"
     not_if "(choco list -l) -match '#{package}'"
   end
 end
-</pre>
+
+```
+
     
     ### And a few Ruby gems
     
@@ -171,22 +207,38 @@ end
     
     
     In our cookbooks/local/attributes/default.rb,
-    <pre># gems to install
-default['local']['gems'] = %w[kitchen-pester kitchen-hyperv kitchen-dsc pry]</pre>
+    
+```
+# gems to install
+default['local']['gems'] = %w[kitchen-pester kitchen-hyperv kitchen-dsc pry]
+```
+
     
     And then in our shell,
-    <pre>chef generate recipe cookbooks/local gems --copyright 'Steven Murawski' --license apache2</pre>
+    
+```
+chef generate recipe cookbooks/local gems --copyright 'Steven Murawski' --license apache2
+```
+
     
     Then, in cookbooks/local/recipes/gems.rb,
-    <pre>node['local']['gems'].each do |gem|
+    
+```
+node['local']['gems'].each do |gem|
   chef_gem gem do 
     compile_time false if respond_to?(:compile_time)
   end
-end</pre>
+end
+```
+
     
     ### Update the default recipe
     
-    <pre>include_recipe 'local::packages'</pre>
+    
+```
+include_recipe 'local::packages'
+```
+
     
     Finally, we'll update our default recipe to call this one. In cookbooks/local/recipes/default.rb
     
@@ -232,7 +284,9 @@ end</pre>
     
     
     We will need a recipe and some attributes to get this going. We'll add to our cookbooks/local/attributes/default.rb
-    <pre># git repositories to start with
+    
+```
+# git repositories to start with
 default['local']['git_repos'] = {
   'chef'              => ['chef'],
   'smurawski'         => ['sample-windowspowershell'],
@@ -248,13 +302,21 @@ default['local']['git_repos'] = {
 }
 
 # location of the source directory
-default['local']['source_destination'] = "d:/source"</pre>
+default['local']['source_destination'] = "d:/source"
+```
+
     
     In the shell,
-    <pre>chef generate recipe cookbooks/local repositories --copyright 'Steven Murawski' --license apache2</pre>
+    
+```
+chef generate recipe cookbooks/local repositories --copyright 'Steven Murawski' --license apache2
+```
+
     
     Then in cookbooks/local/recipes/repositories, we can add
-    <pre>
+    
+```
+
 node['local']['git_repos'].each do |key, value| 
   directory "#{node['local']['source_destination']}/github/#{key}" do
     recursive true 
@@ -268,7 +330,9 @@ node['local']['git_repos'].each do |key, value|
       end 
     end 
 end 
-</pre>
+
+```
+
     
     ### Creating the symlinks
     
@@ -287,7 +351,9 @@ end
     
     
     Then, we can edit cookboks/local/recipes/links.rb to contain 
-    <pre>
+    
+```
+
 directory "#{node['local']['source_destination']}"
 
 link "#{ENV['USERPROFILE']}/source" do 
@@ -296,14 +362,18 @@ end
 
 link "#{ENV['USERPROFILE']}/Documents/WindowsPowerShell" do 
   to "#{node['local']['source_destination']}/github/smurawski/sample-windowspowershell" 
-end</pre>
+end
+```
+
     
     ### Adding those steps
     
     
     
     Now we need to include these as part of our default recipe. We can insert these steps right after calling the git recipe. Then our cookbooks/local/recipes/default should look like (after the comments at the top)
-    <pre>include_recipe 'git'
+    
+```
+include_recipe 'git'
 include_recipe 'local::repositories'
 include_recipe 'local::links'
 include_recipe 'winbox::chocolatey_install'
@@ -313,7 +383,7 @@ include_recipe 'winbox::editor'
 include_recipe 'winbox::console'
 include_recipe 'winbox::git'
 include_recipe 'local::packages'
-
+```
 
 
 ## Step 9 - Run it!

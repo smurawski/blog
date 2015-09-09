@@ -35,7 +35,8 @@ There are a couple of key differences between functions and scripts.
 3.  A function is declared with      
 
 
-function Add-SomeNameHere
+function Add-SomeNameHere
+
 
     
 4.  A script is declared with a file extension of .ps1. 
