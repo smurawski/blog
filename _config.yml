@@ -13,3 +13,5 @@ permalink: /powershell/:year/:month/:title/index.html
 # Build settings
 markdown: redcarpet
 markdown_ext: markdown, md
+
+exclude: ['Gemfile', 'Gemfile.lock', 'appveyor.yml', 'LICENSE']
