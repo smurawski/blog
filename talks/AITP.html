@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>DevOps Demystified</title>
+
+		<meta name="description" content="Defining DevOps">
+		<meta name="author" content="Steven Murawski">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<h1>DevOps Demystified</h1>
+					<h3>Finding Value in the Hype</h3>
+					<p>
+						<small>By <a href="http://stevenmurawski.com">Steven Murawski</a> / <a href="http://twitter.com/stevenmurawski">@stevenmurawski</a></small>
+					</p>
+				</section>
+                <section>
+					<section>
+						<h2>The Current State of IT</h2>
+						<ul>
+							<li>IT is responsible for more of the business infrastructure than ever before.</li>
+							<li>Deployments today are more perilious then ever.</li>
+							<li>The costs of project failure can be staggering.</li>
+						</ul>
+						<img alt="Forgot this tag" src="./Devops-Images/gartner-fig-1.jpg"/> 
+						<p>Even in "low-tech" industries, 95% of all capital projects have an IT component.</p>
+						<p>50% of all capital spending is technology related.</p><p>(<a href="http://www.slideshare.net/realgenekim/when-it-fails-the-business-fails">Source - Gene Kim August 20, 2012</a>) </p>
+					</section>
+					
+					<section>	
+						<h2>Failure costs money</h2>
+						<a href="http://www.zdnet.com/blog/projectfailures/worldwide-cost-of-it-failure-revisited-3-trillion/15424">Worldwide cost of IT failure (revisited): $3 trillion</a>
+						<p>This covers capital, operations/maintenance, unplanned rework, and lost benefit from the projects</p>
+					</section>
+					
+					<section>					
+						<h2><a href="http://thisiswhatgoodlookslike.com/2012/06/10/gartner-survey-shows-why-projects-fail/">Why Projects Fail</a></h2>
+						<p>Gartner did a survey back in 2012 and came up with these common causes of project failure:</p>
+						<ul>
+							<li class="fragment">Functionality issues</li>
+							<li class="fragment">Substantially late</li>
+							<li class="fragment">Quality issues</li>
+							<li class="fragment">High cost variance</li>
+							<li class="fragment">Canceled after launch</li>
+							<li class="fragment">Rejected or not implemented for other reasons</li>
+						</ul>						
+					</section>
+					
+					<section>
+						<h2>The Downward Spiral</h2>
+						<h3><a href="http://itrevolution.com/construction-phoenix-project-and-selling-devops-downward-spiral/">Highlights</a></h3>
+						<p>In it's current state, IT is stuck in a downward spiral, with problems compounding on each other, making it tougher and tougher to address.</p>
+						<p>This situation make each successive project more likely to be the one that collapses the house of cards.</p>
+						<p>This spiral includes:</p>
+						<ul>
+							<li class="fragment">fragile artifacts become more fragile</li>
+							<li class="fragment">technical debt grows</li>
+							<li class="fragment">date-driven application projects focus only on features, sacrificing non-functional requirements, which results in more fragile artifacts in production</li>
+							<li class="fragment">application deploy take longer, become more turbulent, and continually gets worse</li>
+							<li class="fragment">IT Ops is mired in firefighting, and therefore cannot do preventive work or new projects</li>
+							<li class="fragment">long feature delivery cycle times result in more political decision making, meaning more focus on features (vs. non-functional requirements</li>
+						</ul>						
+					</section>	
+                    <section>
+                        <h2>What We Think of Our IT Infrastructure</h2>
+                        <img alt="forgot this tag" src="./Devops-Images/wallofwood.jpg" />
+                    </section>			
+                    <section>
+                        <h2>What Our Infrastructure Is Really Like</h2>
+                        <img alt="forgot this tag" src="./Devops-Images/jenga.jpg" />
+                    </section>
+				</section>
+                <section> 
+                    <section>
+                        <h3>OUTAGE!</h3>
+                    </section>                                   
+                    <section>
+                        <p>When you think of an outage in a traditional IT environment, this is what comes to mind.</p>
+                        <img alt="Forgot this tag" src="./Devops-Images/nerd-fight.jpg"/> 
+                    </section>
+                    <section>
+                        <p>Someone, usually upper management, is calling for the head of whomever is responsible.</p>
+                        <img alt="Forgot this tag" src="./Devops-Images/cover-that-butt.jpg"/> 
+                        <p>People scramble, not only to resolve the outage, but to make sure their backsides are covered.</p>
+                    </section>
+                    <section>
+                        <p>Not only does this impede recovery time, but limits the organizations ability to learn from the outage.</p>
+                        <img alt="nothing" src="./Devops-Images/hearno-seeno-speakno.jpg" />
+                        <p>Since there isn't an incentive to show culpablity and there are major disincentives to acknowledging it, getting to the true root cause can be rough.</p>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h3>So, what happens at Stack Exchange?</h3>
+                    </section>
+                   <section>
+					    <h2><a href="http://imgur.com/a/YLd29">DevOps in the wild - Stack Exchange</a></h2>
+					    <img alt="Forgot this tag" src="./Devops-Images/DevOps-In-Action.jpg" height="291" width="236"/>
+					    <p><small>Nick Craver (developer), Geoff Dalgas (developer), Peter Grace (Sysadmin) and myself (sysadmin) working on a database outage in the plaza in front of our offices in NYC.</small></p>
+					    <p><small>Notes:</small></p>
+					    <ul>
+						    <li><small>Building lobby is closed at 3AM.</small></li>
+						    <li><small>3G/4G hotspots are handy.</small></li>
+						    <li><small>High availability solutions cause most of our outages.</small></li>
+					    </ul>
+				    </section>
+                    <section>
+                        <p>At Stack Exchange, blame is used only to find the root of a problem.</p>
+                        <img alt="nothing" src="./Devops-Images/blame.jpg" />
+                        <p>We've even made it somewhat of a game... </p>
+                        <img alt="nothing" src="./Devops-Images/WheelOfBlame.png" />
+                    </section>
+                    <section>
+                        <p>Since there isn't a stigma to blame, people are willing to disclose changes they've made or actions they've taken.</p>
+                        <img alt="nothing" src="./Devops-Images/notmyfault.jpg" />
+                        <p>This allows you to get to root cause that much faster.</p>
+                        <p>And focus on resolving the problem, rather than worrying about our job.</p>
+                    </section>
+                </section>                
+                
+				<section>
+					<h2>Defining DevOps</h2>
+					<ul>					
+						<li class="fragment">Traditional IT Operations</li>
+                        <li class="fragment">NoOps</li>						
+						<li class="fragment">DevOps</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Defining DevOps - Traditional IT</h2>
+					<p>Traditional IT organizations exhibit the siloing that is typical of large organizations.</p>
+					<p>These are the guys who say, "No!" to everything.  The strive for stability, so they don't get paged constantly and can spend some time with the family.</p>
+					<img alt="Forgot this tag" src="./Devops-Images/nerd-fight.jpg"/> 
+					<p><small>In traditional IT organizations, there is often very little communication between the developers and operations personnel.  And the communication you see is often like the picture above.</small></p> 
+					<p><small>New software or updated software is often "thrown over the wall" to be deployed at some point.</small></p>					
+				</section>
+                <section>
+					<h2>Defining DevOps - NoOps</h2>
+					<p>The NoOps guys are these small startups (and not so small startups) where the developer is the guy also doing the operations work and on call. </p>
+					<p>There is not a sysadmin in sight.. who needs one, everything runs in the cloud, so we don't need the guys to plug in cables and push the "go faster" buttons...</p>
+					<img alt="Forgot this tag" src="./Devops-Images/Borat-CloudStartup.png"/> 
+				</section>				
+				
+				<section>
+					<section>
+						<h2>Defining DevOps - DevOps</h2>
+						<p>DevOps is a term that was coined by <a href="twitter.com/patrickdebois">Patrick Debois</a></p>
+						<img alt="Forgot this tag" src="./Devops-Images/Borat-SysadminDifference.png"/> 
+						<p>DevOps describes the framework of breaking communications silos and encouraging inter-disciplinary cooperation and integration.</p>
+						<p>DevOps acknowledges that problems in software/IT projects is not the responsibility of Devs or IT alone.</p>
+						<p><a href="http://itrevolution.com/the-convergence-of-devops/">DevOps can be thought of as the convergence of three specific movements:</a></p>
+						<ul>								
+							<li><small>Agile Infrastructure - Infrastructure as Code (Debois/Shafer)</small></li>
+							<li><small>Velocity - Starting with John Allspaw's 10 Deploys a Day</small></li>
+							<li><small>Lean Startup - Minimum Viable Product (Ries) and Continuous Delivery (Humble)</small></li>
+						</ul>			
+						
+						<p><a href="http://www.opscode.com/blog/2010/07/16/what-devops-means-to-me/">DevOps is about CAMS - Culture, Automation, Measurement, and Sharing.</a></p>						
+					</section>
+					<section>
+						<h2>Culture</h2>
+						<p>People and process first.  If you don't have culture, all automation attempts will be fruitless.</p>
+						<img alt="Forgot this tag" alt="Forgot this tag" src="./Devops-Images/Borat-Culture.png"/> 
+					</section>
+					<section>
+						<h2>Automation</h2>
+						<p>This is one of the places you start once you understand your culture.  At this point, the tools can start to stitch together an automation fabric for Devops.  Tools for release management, provisioning, configuration management, systems integration, monitoring and control, and orchestration become important pieces in building a Devops fabric.</p>
+						<img alt="Forgot this tag" alt="Forgot this tag" src="./Devops-Images/Borat-Automation.png"/> 
+					</section>
+					<section>
+						<h2>Measurement</h2>
+						<p>If you can't measure, you can't improve.  A successful Devops implementation will measure everything it can as often as it can... </p>
+							<ul>
+								<li>performance metrics, </li>
+								<li>process metrics,</li>
+								<li>and even people metrics.</li>
+							</ul>
+						
+						<img alt="Forgot this tag" alt="Forgot this tag" src="./Devops-Images/Borat-Measure.png"/>
+						
+					</section>
+					<section>
+						<h2>Sharing</h2>
+						<p>Sharing is the loopback in the CAMS cycle.  Creating a culture where people share ideas and problems is critical.</p>
+						<img alt="Forgot this tag" src="./Devops-Images/Borat-StealCode.png"/>
+					</section>
+				</section>
+				
+				<section>
+					<h2>DevOps is not</h2>
+						<ul>
+							<li><p>A job</p>
+							<a href="http://tech.mangot.com/blog/2013/05/29/-im-not-a-devops-dot-dot-dot-are-you-an-agile/"><img alt="Forgot this tag" src="./Devops-Images/NotaDevops.png"/></a>
+							</li>
+							<li class="fragment"><p>System Center, BuildMaster, Jenkins, Puppet, Chef, PowerShell, Ruby or any other tooling...</p>
+							<img alt="Forgot this tag" src="./Devops-Images/Borat-Tools.png"/>
+							</li>
+                        </ul>
+                </section>
+                <section>
+					<h2>DevOps is not</h2>
+						<ul>
+							<li class="fragment"><p>The devs responding to all pages and the sysadmins dealing with only hardware...</p>
+							<img alt="Forgot this tag" src="./Devops-Images/Borat-AllOnPager.png"/>
+							</li>
+							<li class="fragment"><p>Using the cloud..</p>
+							<img alt="Forgot this tag" src="./Devops-Images/Borat-CloudRich.png"/>
+							</li>							
+						</ul>					
+				</section>
+				
+				<section>
+				    <section>
+					    <h2>How Do We Start Thinking About DevOps?</h2>
+					    <h2><a href="http://itrevolution.com/the-three-ways-principles-underpinning-devops/">With The Three Ways</a></h2>
+					    <ul>
+						    <li>First Way - Systems Thinking</li>
+						    <li>Second Way - Amplify Feeback Loops</li>
+						    <li>Third Way - Culture of Continual Experimentation and Learning</li>	
+					    </ul>
+					    <br />
+					    <a href="http://www.amazon.com/The-Phoenix-Project-Helping-Business/dp/0988262592">
+					    <br />
+					    <br />
+					    <p>Want a great parable on how this can evolve in an enterprise?</p>
+					    <img alt="Forgot this tag" src="./Devops-Images/PhoenixProject.jpg"/>
+					    </a>
+				    </section>
+					<section>
+						<h2>The First Way - Systems Thinking</h2>
+						<img alt="Forgot this tag" src="./Devops-Images/first-way2.png"/>
+						<p>Avoid local optima - strive to improve the whole process.</p>
+					</section>
+					<section>
+						<h2>Second Way - Amplify Feeback Loops</h2>
+						<img alt="Forgot this tag" src="./Devops-Images/second-way1.png"/>
+						<p>Get the results back in the hands of those who can use them. Quickly!</p>
+					</section>
+					<section>
+						<h2>Third Way - Culture of Continual Experimentation and Learning</h2>
+						<img alt="Forgot this tag" src="./Devops-Images/third-way.png"/>
+						<p>Be willing to change things, and keep changing.</p>
+					</section>
+				</section>
+				
+                <section>
+                    <p>Improving communication between teams is critical.</p>
+                    <img alt="Forgot this tag" src="./Devops-Images/breaking-down-walls.jpg"/> 
+                    <p class="fragment">Fortunately, technology helps make this easy.</p>
+                    <p class="fragment">It's people that make this difficult.</p>
+                    <p></p><strong class="fragment">And that's what makes DevOps hard...</strong></p>
+                </section>
+                <section>
+                    <p><strong>DevOps isn't a bandaid to cover over failures.</strong></p>
+                    <p><strong>It's not a new silo to create to work around existing IT.</strong></p>
+                    <p><strong>It's not some wizbang new tooling that will fix all your problems.</strong></p>
+                    <img alt="Forgot this tag" src="./Devops-Images/snakeoil.jpg"/>
+                    <h3 class="fragment">DevOps is a culture change,</h3>
+                    <h3 class="fragment">focused on re-aligning silo'd goals with the overall goals of the organization.</h3>
+                </section>               
+				
+				<section>
+					<h2>Bringing it back together</h2>
+					<p>IT isn't a separate function of a business, it underlays almost every aspect of business today.</p>
+					<p>Silos and barriers to communication are the biggest threats to our businesses.</p>
+					<p>DevOps strives to bring that same agility across the business. 
+                    <small>Using the Three Ways, streamlining the flow from Development to Operations, getting feedback back to Development and the business owners, and continually trying to improve infrastructure and offerings, offer a pattern to minimize the downside of failures and get more successes out in the wild.</small></p>
+					<img alt="Forgot this tag" src="./Devops-Images/Borat-Fail.png"/>
+				</section>
+				
+				
+				
+				<section>
+					<h2>Questions?</h2>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
+
+

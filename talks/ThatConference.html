@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>DevOps at Stack Overflow/Stack Exchange</title>
+
+		<meta name="description" content="DevOps at Stack Overflow/Stack Exchange">
+		<meta name="author" content="Steven Murawski">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                <section>
+                    <img alt="Forgot this tag" src="./Devops-Images/Intro.png"/> 
+                </section>
+                <section>
+                    <img alt="Forgot this tag" src="./Devops-Images/sponsors.png"/> 
+                </section>
+                <section>
+                    <h2>DevOps at Stack Exchange</h2>
+                </section>
+                <section>
+                    <section>
+						<h2>Defining DevOps - DevOps</h2>
+						<p>DevOps is a term that was coined by <a href="twitter.com/patrickdebois">Patrick Debois</a></p>
+						<img alt="Forgot this tag" src="./Devops-Images/Borat-SysadminDifference.png"/> 
+						<p>DevOps describes the framework of breaking communications silos and encouraging inter-disciplinary cooperation and integration.</p>
+						<p>DevOps acknowledges that problems in software/IT projects is not the responsibility of Devs or IT alone.</p>
+                        <div class="fragment">
+						    <p><a href="http://itrevolution.com/the-convergence-of-devops/">DevOps can be thought of as the convergence of three specific movements:</a></p>
+						    <ul>								
+							    <li><small>Agile Infrastructure - Infrastructure as Code (Debois/Shafer)</small></li>
+							    <li><small>Velocity - Starting with John Allspaw's 10 Deploys a Day</small></li>
+							    <li><small>Lean Startup - Minimum Viable Product (Ries) and Continuous Delivery (Humble)</small></li>
+						    </ul>
+						    <p><a href="http://www.opscode.com/blog/2010/07/16/what-devops-means-to-me/">DevOps is about CAMS - Culture, Automation, Measurement, and Sharing.</a></p>						
+                        </div>
+					</section>
+                    <section>
+						<h2>The Three Ways</h2>
+					</section>
+					<section>
+						<h2>The First Way - Systems Thinking</h2>
+						<img alt="Forgot this tag" src="./Devops-Images/first-way2.png"/>
+						<p>Avoid local optima - strive to improve the whole process.</p>
+					</section>
+					<section>
+						<h2>Second Way - Amplify Feeback Loops</h2>
+						<img alt="Forgot this tag" src="./Devops-Images/second-way1.png"/>
+						<p>Get the results back in the hands of those who can use them. Quickly!</p>
+					</section>
+					<section>
+						<h2>Third Way - Culture of Continual Experimentation and Learning</h2>
+						<img alt="Forgot this tag" src="./Devops-Images/third-way.png"/>
+						<p>Be willing to change things, and keep changing.</p>
+					</section>
+                </section>
+                <section>
+                    <h3>It's all about the Culture.</h3>                    
+                    <img alt="Forgot this tag" src="./Devops-Images/dogs-and-cats.jpg"/> 
+                    <p>The key to a successful DevOps environment is culture.</p>
+                    <p>One major component to that is the reducing the barriers to communication.</p>
+                </section>
+                <section>
+                    <p>Improving communication between teams is critical.</p>
+                    <img alt="Forgot this tag" src="./Devops-Images/breaking-down-walls.jpg"/> 
+                    <p class="fragment">Fortunately, technology helps make this easy.</p>
+                    <p class="fragment">It's people that make this difficult.</p>
+                </section>
+                <section>
+                    <p>We use a variety of tools to help with communication. In no particular order:</p>
+                    <ul>
+                        <li class="fragment">Email</li>
+                        <li class="fragment">Google Hangouts</li>
+                        <li class="fragment">Vidyo Video Conferencing</li>
+                        <li class="fragment">Trello Boards</li>
+                        <li class="fragment">Chat</li>
+                        <li class="fragment">Skype</li>
+                        <li class="fragment">Google Talk</li>
+                    </ul>
+                </section>
+                <section> 
+                    <section>
+                        <h3>OUTAGE!</h3>
+                    </section>                                   
+                    <section>
+                        <p>When you think of an outage in a traditional IT environment, this is what comes to mind.</p>
+                        <img alt="Forgot this tag" src="./Devops-Images/nerd-fight.jpg"/> 
+                    </section>
+                    <section>
+                        <p>Someone, usually upper management, is calling for the head of whomever is responsible.</p>
+                        <img alt="Forgot this tag" src="./Devops-Images/cover-that-butt.jpg"/> 
+                        <p>People scramble, not only to resolve the outage, but to make sure their backsides are covered.</p>
+                    </section>
+                    <section>
+                        <p>Not only does this impede recovery time, but limits the organizations ability to learn from the outage.</p>
+                        <img alt="nothing" src="./Devops-Images/hearno-seeno-speakno.jpg" />
+                        <p>Since there isn't an incentive to show culpablity and there are major disincentives to acknowledging it, getting to the true root cause can be rough.</p>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h3>So, what happens at Stack Exchange?</h3>
+                    </section>
+                   
+                    <section>
+                        <p>At Stack Exchange, blame is used only to find the root of a problem.</p>
+                        <img alt="nothing" src="./Devops-Images/blame.jpg" />
+                        <p>We've even made it somewhat of a game... </p>
+                        <img alt="nothing" src="./Devops-Images/WheelOfBlame.png" />
+                    </section>
+                    <section>
+                        <p>Since there isn't a stigma to blame, people are willing to disclose changes they've made or actions they've taken.</p>
+                        <img alt="nothing" src="./Devops-Images/notmyfault.jpg" />
+                        <p>This allows you to get to root cause that much faster.</p>
+                        <p>And focus on resolving the problem, rather than worrying about our job.</p>
+                    </section>
+                     <section>
+					    <h2><a href="http://imgur.com/a/YLd29">DevOps in the Wild</a></h2>
+					    <img alt="Forgot this tag" src="./Devops-Images/DevOps-In-Action.jpg" height="320" width="400"/>
+					    <p><small>Nick Craver (developer), Geoff Dalgas (developer), Peter Grace (Sysadmin) and myself (sysadmin) working on a database outage in the plaza in front of our offices in NYC.</small></p>
+					    <p><small>Notes:</small></p>
+					    <ul>
+						    <li><small>Building lobby is closed at 3AM.</small></li>
+						    <li><small>3G/4G hotspots are handy.</small>  </li>
+						    <li><small>High availability solutions cause most of our outages.</small></li>
+					    </ul>
+				    </section>
+                </section>
+                <section>
+                    <h3>Increasing Visibility</h3>                    
+                    <ul>
+                        <li class="fragment">Stack Exchange Status</li>
+                        <li class="fragment">External Monitoring</li>
+                        <li class="fragment">Weekly Status Reports</li>
+                    </ul>
+                    <p>                
+                    <img alt="Forgot this tag" src="./Devops-Images/Visibilty.jpg" height="250" width="500"/>
+                    </p>
+                    <ul>
+                        <li class="fragment">Stack Exchange Build</li>
+                        <li class="fragment">Source Control - Code and Configuration</li>                                            
+                    </ul> 
+                </section>
+                <section>                    
+                    <p>You may have noticed that I included configuration with source code.</p>
+                    <p>This is not an accident.</p>
+                    <img alt="Forgot this tag" src="./Devops-Images/Configuration.jpg"/>                     
+                </section>
+                <section>
+                    <p>Our server configurations are versioned and managed like applications.</p>
+                    <p>By treating our servers this way, we can recreate our environment</p>
+                    <img alt="Forgot this tag" src="./Devops-Images/Cabling.jpg"/>                     
+                    <p>physically, virtually, or on some cloud provider with minimal modification.</p>
+                </section>
+                <section>                                        
+                    <p>All the members of our technical staff have access to our build server(s).</p>
+                    <img alt="Forgot this tag" src="./Devops-Images/Build.jpg"/> 
+                    <p>Whom ever need to can build, but if you build, be prepared to deal with the consequences.</p>
+                </section>
+                <section>
+                   <h3>In Closing</h3>
+                    <p>Stack Exchange offers an interesting example of a DevOps environment,</p>
+                    <img alt="Forgot this tag" src="./Devops-Images/kumbaya.jpg"/> 
+                    <p>where business representatives, developers and operations personnel all collaborate to deliver innovative, highly available solutions.</p>
+                </section>
+                <section>
+                    <h3>Questions?</h3>
+                </section>
+                <section>
+                    <img alt="Forgot this tag" src="./Devops-Images/NextYear.png"/> 
+                </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
+
+
