@@ -4,7 +4,7 @@ email: steven.murawski@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   My ramblings on PowerShell, DevOps, and Windows Server administration.
 baseurl: "" # "powershell" # the subpath of your site, e.g. /blog/
-url: "http://beta.stevenmurawski.com" # the base hostname & protocol for your site
+url: "http://stevenmurawski.com" # the base hostname & protocol for your site
 twitter_username: stevenmurawski
 github_username:  smurawski
 

@@ -4,14 +4,10 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Welcome</h1>
-  
-  <p>Welcome to my new blog home.  The content is all on <a href="https://github.com/smurawski/blog">GitHub</a> and pull requests are welcome.  If you find errors in the conversion, feel free to <a href="https://github.com/smurawski/blog/issues">file an issue! </a>.</p>
-
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -22,7 +18,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  <p class "rss-subscribe"><a href="all.html">all posts</a></p>
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
