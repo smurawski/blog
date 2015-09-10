@@ -8,6 +8,8 @@ url: "http://stevenmurawski.azurewebsites.net" # the base hostname & protocol fo
 twitter_username: stevenmurawski
 github_username:  smurawski
 
+permalink: /powershell/:year/:month/:title/index.html
+
 # Build settings
 markdown: redcarpet
 markdown_ext: markdown, md
