@@ -15,3 +15,6 @@ markdown: redcarpet
 markdown_ext: markdown, md
 
 exclude: ['Gemfile', 'Gemfile.lock', 'appveyor.yml', 'LICENSE']
+
+gems:
+  - jekyll-sitemap

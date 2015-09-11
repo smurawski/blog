@@ -1,6 +1,6 @@
 environment:
   matrix:
-    - ruby_version: "200"
+    - ruby_version: "22"
 
 clone_folder: c:\projects\blog
 clone_depth: 1
@@ -12,6 +12,8 @@ branches:
 cache:
   - C:\Ruby200\lib\ruby\gems\2.0.0
   - C:\Ruby200\bin
+  - C:\Ruby22\bin
+  - C:\Ruby22\lib\ruby\gems\2.2.0
 
 install:
   - SET PATH=C:\Ruby%ruby_version%\bin;%PATH%
@@ -23,7 +25,7 @@ install:
 
 build_script:
   - bundle install || bundle install || bundle install
-  - jekyll build
+  - bundle exec jekyll build
   - cd _site
   - 7z a -tzip c:\projects\blog\deploy.zip .\
   - cd ..
