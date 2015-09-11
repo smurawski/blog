@@ -1,6 +1,6 @@
 environment:
   matrix:
-    - ruby_version: "22"
+    - ruby_version: "200"
 
 clone_folder: c:\projects\blog
 clone_depth: 1
