@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Essential Skills For a DevOps World</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="author" content="Steven Murawski">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -38,14 +38,30 @@
 
 		<div class="reveal">
 
-			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
+
+        <section data-background="./DevOps-Images/warning.png" data-background-size=300px data-markdown>
+          <script type="text/template">
+            ## Warning!  Warning!!
+            - This Material May Be Harmful To Traditional IT Professionals
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            - If You Like The Status Quo You May Want To Go Go The Other Session
+            - You Cannot Unlearn This Material
+          </script>
+				</section>
+
 				<section data-markdown>
           <script type="text/template">
             ## Essential Skills For a DevOps World
             [Steven Murawski](http://stevenmurawski.com)
 
-            Software Development Engineer 
+            Software Development Engineer
 
             Community Engineering @ [Chef](https://chef.io)
           </script>
@@ -74,6 +90,12 @@
           </script>
 				</section>
 
+        <section data-markdown>
+          <script type="text/template">
+          ### Or maybe these people are...
+          ![Got to love coworkers](./DevOps-Images/nerd-fight.jpg)
+          </script>
+				</section>
 
 				<section data-markdown>
           <script type="text/template">
@@ -84,37 +106,185 @@
           </script>
 				</section>
 
-				<section data-markdown>
+        <section data-markdown>
           <script type="text/template">
-            ### What you need to know
-            - Source Control
-            - Testing
-            - Design Patterns / Software Development Methods
-            - Service Monitoring
-            - Cloud Architectures
+          ### This session will start you on the path to break through
+          ![Bust through](./DevOps-Images/breaking-down-walls.jpg)
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Are you ready to get started? 
+          ### Let's take your work environment
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ![Ugh](./DevOps-Images/Cabling-Beginning.jpg)
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          #### to
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ![Ohh](./DevOps-Images/Cabling-Result.jpg)
           </script>
 				</section>
 
 				<section data-markdown>
           <script type="text/template">
+            ### What Do We Need To Start With 
+
+            - Source Control
+            - Continous Delivery
+            - Testing
+            - Centralized Logging
+            - Service Monitoring
+            - Other Reading
           </script>
 				</section>
+
 				<section data-markdown>
           <script type="text/template">
+          ### Tools and Practices can reshape our culture
+          ![The First Way](./DevOps-Images/first-way2.png)
           </script>
 				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Embrace Consistency and Repeatability
+          </script>
+				</section>
+
 				<section data-markdown>
           <script type="text/template">
+          ### Everything Starts in Source Control.
+          ![Source Rules All](./DevOps-Images/source_control.png)
+          ### Everyone starts with source control.
           </script>
 				</section>
-				<section data-markdown>
+
+        <section data-markdown>
           <script type="text/template">
+          ### What should we put in source control?
+          ![All The Things!](./DevOps-Images/what_goes_in_source.png)
           </script>
 				</section>
-				<section data-markdown>
+
+        <section data-markdown>
           <script type="text/template">
+          ### Everyone Should Strive for Continuous Delivery
+          #### Of
+
+          - Infrastructure <!-- .element: class="fragment" -->
+          - Applications <!-- .element: class="fragment" -->
+          - Coffee <!-- .element: class="fragment" -->
           </script>
 				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          #### The First Rule of Automation Club
+          ### No Magic People or Machines
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### You need a build process
+
+          Builds
+
+          - Pull from source control <!-- .element: class="fragment" -->
+          - Run Automated Tests <!-- .element: class="fragment" -->
+          - Deploy to the desired environment  <!-- .element: class="fragment" -->
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Uh.. Wait... Automated Tests?
+          ![What!](./DevOps-Images/what.gif)
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Types of tests
+
+          - Linting
+          - Unit
+          - Functional
+          - Integration or Acceptance
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### What abut that deploy step?
+          - Doesn't have to be production or even to an operating environment
+          - You can put whatever workflow in the way you need to 
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          # Getting information back
+          ![The Second Way](DevOps-Images/second-way1.png)
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Centralized Logging
+
+          - Event Log Forwarding
+          - ELK (Elastic Search / Logstash / Kibana)
+          - Splunk
+          - Something Else
+
+          #### Required Logs *Must* Not Be Only On the Box.
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Service Monitoring
+          - Simple machine up/down does not matter because cloud
+          - IT needs to know what it means for a service to be healthy <!-- .element: class="fragment" -->
+          - That means developers and IT need to figure out what that means <!-- .element: class="fragment" -->
+          - This can be refined over time if you practice the first way with your monitoring technology <!-- .element: class="fragment" --> 
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ![Boom](./DevOps-Images/head_explode.gif) 
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Other Reading and Topics 
+          [DevOps Reading List](http://stevenmurawski.com/devops-reading-list)
+          </script>
+				</section>  
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Questions? 
+          </script>
+				</section>
+
+
 			</div>
 
 		</div>
