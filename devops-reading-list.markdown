@@ -1,3 +1,9 @@
+---
+layout: page
+title: DevOps Reading List
+permalink: /devops-reading-list/
+---
+
 ## Concepts
 
 - [The Phoenix Project](http://www.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B00AZRBLHO)
