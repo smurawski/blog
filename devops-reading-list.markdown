@@ -11,6 +11,7 @@ permalink: /devops-reading-list/
 - [The Goal](http://www.amazon.com/Goal-Process-Ongoing-Improvement-ebook/dp/B002LHRM2O)
 - [Building a DevOps Culture](http://www.amazon.com/Building-DevOps-Culture-Mandi-Walls-ebook/dp/B00CBM1WFC)
 - [Lean Enterprise](http://www.amazon.com/Lean-Enterprise-Performance-Organizations-Innovate-ebook/dp/B00QL5MSF8)
+- [Beyond Blame: Learning from Failure and Success](http://www.amazon.com/Beyond-Blame-Learning-Failure-Success-ebook/dp/B016CJ5HUA)
 
 ## Operations
 
@@ -30,3 +31,4 @@ permalink: /devops-reading-list/
 - [Release It!](http://www.amazon.com/Release-Production-Ready-Software-Pragmatic-Programmers/dp/0978739213)
 - [Debug It!](http://www.amazon.com/Debug-Repair-Prevent-Pragmatic-Programmers/dp/193435628X)
 - [Design Patterns](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+- [Working Effectively With Legacy Code](http://www.amazon.com/Working-Effectively-Legacy-Robert-Martin-ebook/dp/B005OYHF0A)
