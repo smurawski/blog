@@ -45,7 +45,7 @@ on_success:
   - git config --global user.email "steven.murawski@gmail.com"
   - git config --global user.name "Steven Murawski"
   - git remote add upstream "https://github.com/smurawski/blog.git"
-  - git commit -m '[skip ci] - updated posts'
+  - git commit -m "[skip ci] - updated posts"
   - git push upstream master
 
 deploy:

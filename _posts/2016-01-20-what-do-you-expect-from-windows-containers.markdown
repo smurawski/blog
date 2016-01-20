@@ -9,7 +9,7 @@ tags: []
 
 ## What they are and what they aren't
 
-I've been fielding a lot of questions about windows containers, so here's a quick brain dump of some common misconceptions.  One of the biggest is whether or not you can run multiple versions of Windows server in containers.
+I've been fielding a lot of questions about windows containers, so here's a quick brain dump of one of the common misconceptions.  One of the biggest is whether or not you can run multiple versions of Windows server in containers.
 
 ### I can run different major OS versions in containers - FALSE
 
