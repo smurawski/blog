@@ -1,4 +1,6 @@
 environment:
+  access_token:
+    secure: kdTM19O71SwMJdvAMtH5MTow+ovQ3jtqIvDwPZkeS0t7rWZGv4vHjfCi1C22tfuk
   matrix:
     - ruby_version: "200"
 
@@ -27,8 +29,8 @@ build_script:
   - ps: >-
       $d = get-date;
       dir _posts -file |
-      where {$_.name -notmatch '^\d{4}-\d{2}'} |
-      rename-item -newname {"{0:0000}-{1:00}-{2:00}-$($_.name)" -f $d.year, $d.month, $d.day} -verbose
+      where {$_.name -notmatch '^\d{4}-\d{2}'} | 
+      foreach-object {$NewName = "{0:0000}-{1:00}-{2:00}-$($_.name)" -f $d.year, $d.month, $d.day; git mv "_posts/$($_.name)" "_posts/$NewName"}
 
   - bundle install || bundle install || bundle install
   - bundle exec jekyll build
@@ -36,6 +38,15 @@ build_script:
   - 7z a -tzip c:\projects\blog\deploy.zip .\
   - cd ..
   - appveyor PushArtifact deploy.zip -Type WebDeployPackage
+
+on_success:
+  - git config --global credential.helper store
+  - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
+  - git config --global user.email "steven.murawski@gmail.com"
+  - git config --global user.name "Steven Murawski"
+  - git remote add upstream "https://github.com/smurawski/blog.git"
+  - git commit -am '[skip ci] - updated posts'
+  - git push upstream master
 
 deploy:
 - provider: WebDeploy
