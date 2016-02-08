@@ -32,3 +32,4 @@ permalink: /devops-reading-list/
 - [Debug It!](http://www.amazon.com/Debug-Repair-Prevent-Pragmatic-Programmers/dp/193435628X)
 - [Design Patterns](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
 - [Working Effectively With Legacy Code](http://www.amazon.com/Working-Effectively-Legacy-Robert-Martin-ebook/dp/B005OYHF0A)
+- [Version Control By Example](http://ericsink.com/vcbe/)
