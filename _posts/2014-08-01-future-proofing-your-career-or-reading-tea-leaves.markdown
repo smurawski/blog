@@ -12,27 +12,20 @@ tags: []
 Don Jones provided a keynote at TechMentor this morning and I tweeted a fragment of his career advice.
 
  
-   <blockquote class="twitter-tweet">
+ <blockquote class="twitter-tweet">
 
 "Make sure your career is lined up with upcoming changes in IT" via [@concentrateddon](https://twitter.com/concentrateddon) [#TechMentor](https://twitter.com/hashtag/TechMentor?src=hash) [#career](https://twitter.com/hashtag/career?src=hash)
 — Steven Murawski (@StevenMurawski) [August 13, 2014](https://twitter.com/StevenMurawski/statuses/499583848305291264)
-
-
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
- 
+</blockquote>
 
 
 Jim Kimball astutely asks
 
- 
-   <blockquote class="twitter-tweet">
+<blockquote class="twitter-tweet">
 
 [@StevenMurawski](https://twitter.com/StevenMurawski) [@concentrateddon](https://twitter.com/concentrateddon) hmmm. How to guess correctly?
 — Jim Kimball (@jimkimball) [August 13, 2014](https://twitter.com/jimkimball/statuses/499682281611882496)
-
-
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
- 
+</blockquote> 
 
 
 Don and Jim continue
@@ -42,29 +35,17 @@ Don and Jim continue
 
 [@jimkimball](https://twitter.com/jimkimball) [@StevenMurawski](https://twitter.com/StevenMurawski) observe evidence. Extrapolate. Apply experience.
 — Don Jones (@concentrateddon) [August 13, 2014](https://twitter.com/concentrateddon/statuses/499682744457117696)
+</blockquote>
 
-
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
- 
-
- 
-   <blockquote class="twitter-tweet">
-
+ <blockquote class="twitter-tweet">
 [@concentrateddon](https://twitter.com/concentrateddon) [@StevenMurawski](https://twitter.com/StevenMurawski) I still find it is sometimes a crap shoot. I prefer to focus on principles and learn to shift quickly.
 — Jim Kimball (@jimkimball) [August 13, 2014](https://twitter.com/jimkimball/statuses/499684029894246400)
+</blockquote>
 
-
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
- 
-
- 
-   <blockquote class="twitter-tweet">
-
+<blockquote class="twitter-tweet">
 [@jimkimball](https://twitter.com/jimkimball) [@StevenMurawski](https://twitter.com/StevenMurawski) both are important. the one to guess what principles in which to invest.
 — Don Jones (@concentrateddon) [August 13, 2014](https://twitter.com/concentrateddon/statuses/499686951830577152)
-
-
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</blockquote>
  
 
 
