@@ -15,22 +15,13 @@ My friend <a href="http://robertrobelo.wordpress.com/about/" target="_blank">Rob
 
 In trying to research the problem, I found that PowerShell crashed ( yes, crashed.. not throwing an error, but CRASHED) when Get-Help could not resolve the command it needed to provide help for.
 
-
-
 ### Setting the Stage 
-
-
-
 
 #### Reproducing the Problem
 
-
-
-
 Create a module that exports a function
 
-
-
+```powershell
 $Path = 'c:\users\smurawski\documents\windowspowershell\TestModule.psm1'$null = new-item $Path -ItemType File -Force -Value @'
 function Test-One {
     [CmdletBinding()]
@@ -39,35 +30,36 @@ function Test-One {
 }
 
 Export-ModuleMember -Function Test-One
-'@</pre>
+'@
+```
 
-    
     Import the module
     
-<pre language="powershell">Import-Module TestModule</pre>
-
+```powershell
+Import-Module TestModule
+```
     
     Create the proxy module
     
-<pre language="powershell">Get-Module TestModule | 
-    New-AssistedModule -ModulePath c:\users\smurawski\documents\windowspowershell\TestAssisted</pre>
+```powershell
+Get-Module TestModule | 
+    New-AssistedModule -ModulePath c:\users\smurawski\documents\windowspowershell\TestAssisted
+```
 
     
     Import the proxy module
     
-<pre language="powershell">Import-Module TestAssisted</pre>
-
+```powershell
+Import-Module TestAssisted
+```
     
     Try to Get-Help for Test-One (shell will crash here)
     
-<pre language="powershell">Get-Help test-one
-
-
+```powershell
+Get-Help test-one
+```
 
 #### What's Happening?
-
-
-
 
 In the proxy command that is generated, there is a help item (ForwardHelpTargetName) that is created to point the help file back to the original command.&#160; Since you could possibly have multiple commands, aliases, and functions with the same name, there is a second help entry (ForwardHelpCategory) that allows you to specify what type of command you are forwarding to.
 
