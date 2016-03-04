@@ -21,7 +21,7 @@ So, when you say "I'm not a developer", I hear:
 
 ## Stop devaluing my profession
 
-Scripting and command line work is important.  It should be treated as such and treated professionally.
+Scripting and command line work is important.  It should be treated as such and treated professionally.  While you may not have adopted all these practices, you need to start.
 
 ### Everyone writes "throw away" code
 
@@ -46,6 +46,16 @@ Testing for professionals isn't "run the comamnd and run for cover".  Using test
 While PowerShell is extremely approachable for new users, it takes time and effort to get good at it.  By acknowledging that we are developers, we give ourselves permission to build that skill as part of our daily work.
 
 ## Maybe it's time for a change
+
+### I like where this is going
+
+Pick one thing.. start using source control.  Get comfortable with it.
+
+Then start adding in some Pester tests.
+
+Don't try to go back and boil the ocean by writing tests for all the things.  Just write tests for new stuff you are doing or edits you are making to existing scritps.
+
+### That's not for me
 
 If any of this stuff is scary to the point of, "I don't want to get anywhere near that.", you probably want to find a different line of work.
 
