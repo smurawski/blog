@@ -46,8 +46,7 @@ build_script:
 on_success:
   - git remote add upstream "https://github.com/smurawski/blog.git"
   - ps: >-
-      if ([string]::isnullorempty($env:APPVEYOR_PULL_REQUEST_NUMBER)) {
-        if ()
+      if ([string]::isnullorempty($env:APPVEYOR_PULL_REQUEST_NUMBER) -and (git log upstream/master..HEAD)) {
         git push upstream HEAD:master
       }
 
