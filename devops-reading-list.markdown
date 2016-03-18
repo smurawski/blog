@@ -12,6 +12,9 @@ permalink: /devops-reading-list/
 - [Building a DevOps Culture](http://www.amazon.com/Building-DevOps-Culture-Mandi-Walls-ebook/dp/B00CBM1WFC)
 - [Lean Enterprise](http://www.amazon.com/Lean-Enterprise-Performance-Organizations-Innovate-ebook/dp/B00QL5MSF8)
 - [Beyond Blame: Learning from Failure and Success](http://www.amazon.com/Beyond-Blame-Learning-Failure-Success-ebook/dp/B016CJ5HUA)
+- [The Field Guide to Understanding 'Human Error'](http://www.amazon.com/Field-Guide-Understanding-Human-Error-ebook/dp/B00Q8XCSFI)
+- [The Five Dysfunctions of a Team](http://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756)
+- [Turn the Ship Around](http://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404)
 
 ## Operations
 
