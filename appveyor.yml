@@ -45,7 +45,7 @@ build_script:
 
 on_success:
   - git remote add upstream "https://github.com/smurawski/blog.git"
-  - ps: if ([string]::isnullorempty($env:APPVEYOR_PULL_REQUEST_NUMBER) {git push upstream HEAD:master}
+  - ps: if ([string]::isnullorempty($env:APPVEYOR_PULL_REQUEST_NUMBER)) {git push upstream HEAD:master}
 
 deploy:
 - provider: WebDeploy
