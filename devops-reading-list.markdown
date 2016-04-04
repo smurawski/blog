@@ -8,6 +8,7 @@ permalink: /devops-reading-list/
 
 - [The Phoenix Project](http://www.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B00AZRBLHO)
 - [Leading the Transformation](http://www.amazon.com/Leading-Transformation-Applying-DevOps-Principles-ebook/dp/B012P0D4YG)
+- [The Art of Business Value](http://www.amazon.com/Art-Business-Value-Mark-Schwartz-ebook/dp/B01DOGQBJ0)
 - [The Goal](http://www.amazon.com/Goal-Process-Ongoing-Improvement-ebook/dp/B002LHRM2O)
 - [Building a DevOps Culture](http://www.amazon.com/Building-DevOps-Culture-Mandi-Walls-ebook/dp/B00CBM1WFC)
 - [Lean Enterprise](http://www.amazon.com/Lean-Enterprise-Performance-Organizations-Innovate-ebook/dp/B00QL5MSF8)
