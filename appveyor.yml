@@ -48,7 +48,16 @@ on_success:
   - git fetch upstream
   - ps: >-
       if ([string]::isnullorempty($env:APPVEYOR_PULL_REQUEST_NUMBER) -and (git log upstream/master..HEAD)) {
-        git push upstream HEAD:master *>&1
+        try {
+          git push upstream HEAD:master *>&1
+        }
+        catch {
+          $e = $_.exception
+          do {
+            $e.message
+            $e = $e.innerexception
+          } while ($e -ne $null)
+        }
       }
 
 deploy:
