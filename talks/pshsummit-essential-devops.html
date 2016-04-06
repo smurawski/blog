@@ -61,9 +61,11 @@
             ## Essential Skills For a DevOps World
             [Steven Murawski](http://stevenmurawski.com)
 
-            Software Development Engineer
+            Principal Engineer
 
             Community Engineering @ [Chef](https://chef.io)
+            <br />
+            Microsoft MVP - Cloud and Datacenter Management
           </script>
 				</section>
 
@@ -204,6 +206,7 @@
             </script>
           </section>
         </section>
+        
         <section data-markdown>
           <script type="text/template">
           ### Everyone Should Strive for Continuous Delivery
@@ -213,7 +216,8 @@
           - Applications <!-- .element: class="fragment" -->
           - Coffee <!-- .element: class="fragment" -->
           </script>
-				</section>
+        </section>
+          
 
         <section data-markdown>
           <script type="text/template">
@@ -222,39 +226,51 @@
           </script>
 				</section>
 
-        <section data-markdown>
-          <script type="text/template">
-          ### You need a build process
+        <section>
+          <section data-markdown>
+            <script type="text/template">
+            ### You need a build process
 
-          Builds
+            Builds
 
-          - Pull from source control <!-- .element: class="fragment" -->
-          - Run Automated Tests <!-- .element: class="fragment" -->
-          - Deploy to the desired environment  <!-- .element: class="fragment" -->
-          </script>
+            - Pull from source control <!-- .element: class="fragment" -->
+            - Run Automated Tests <!-- .element: class="fragment" -->
+            - Deploy to the desired environment  <!-- .element: class="fragment" -->
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+            ### Uh.. Wait... Automated Tests?
+            ![What!](./DevOps-Images/what.gif)
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+            ### Types of tests
+
+            - Linting <!-- .element: class="fragment" -->
+            - Unit <!-- .element: class="fragment" -->
+            - Functional <!-- .element: class="fragment" -->
+            - Integration or Acceptance <!-- .element: class="fragment" -->
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+            ### Recipe for Success
+            ![Recipe for Success](./DevOps-Images/delivery-recipe.png)
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+            ### Delivery Pipeline
+            ![Delivery Pipeline](./DevOps-Images/delivery-pipeline.png)
+            </script>
+          </section>
 				</section>
 
         <section data-markdown>
           <script type="text/template">
-          ### Uh.. Wait... Automated Tests?
-          ![What!](./DevOps-Images/what.gif)
-          </script>
-				</section>
-
-        <section data-markdown>
-          <script type="text/template">
-          ### Types of tests
-
-          - Linting <!-- .element: class="fragment" -->
-          - Unit <!-- .element: class="fragment" -->
-          - Functional <!-- .element: class="fragment" -->
-          - Integration or Acceptance <!-- .element: class="fragment" -->
-          </script>
-				</section>
-
-        <section data-markdown>
-          <script type="text/template">
-          ### What abut that deploy step?
+          ### What about that deploy step?
           - Does not have to be production or even to an operating environment <!-- .element: class="fragment" -->
           - You can put whatever workflow in the way you need to <!-- .element: class="fragment" -->
           - But, maintenance windows... <!-- .element: class="fragment" --> 
