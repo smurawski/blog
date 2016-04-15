@@ -46,11 +46,11 @@ In the mid-sized to enterprise space, we tend to see people specializing into mo
 
 In this space, when we have Agile practices cranking up developer productivity and "releasing" software more frequently
 
-![Devs shipping like a conveyor belt](https://stevenmurawski.com/talks/DevOps-Images/conveyor_belt.gif "Devs Be Like")
+![Devs shipping like a conveyor belt](http://stevenmurawski.com/talks/DevOps-Images/conveyor_belt.gif "Devs Be Like")
 
 and IT operations isn't part of the conversation,
 
-![Ops still deploying one package at a time](https://stevenmurawski.com/talks/DevOps-Images/ops_deploy_package.gif "Ops Be Like")
+![Ops still deploying one package at a time](http://stevenmurawski.com/talks/DevOps-Images/ops_deploy_package.gif "Ops Be Like")
 
 we end up with a pile of "finished" software that doesn't do the business much good.  Those "releases" may have been great for QA to test, but most will never see the light of day and live on some backup tape stored offsite for posterity.
 
