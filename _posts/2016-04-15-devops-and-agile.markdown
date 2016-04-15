@@ -18,15 +18,18 @@ Some of this is answered by the size of your organization and the level of speci
 Agile ([per the Agile Manifesto](http://agilemanifesto.org/)) purports to improve software development by favoring:
 
 > Individuals and interactions over processes and tools
+
 > Working software over comprehensive documentation
+
 > Customer collaboration over contract negotiation
+
 > Responding to change over following a plan
 
 Businesses tend to buy into Agile (at least in name) to increase their ability to deliver software better than they were before and be able to respond more quickly to changing business needs.
 
 #### What is DevOps?
 
-[DevOps (per Adam Jacob, founder and CTO of Chef Software)](https://github.com/chef/devops-kungfu#what-is-devops), is a cultural and professional movement focused on how we build and operate high velocity organizations, born from the experiences of its practitioners. ([Adam gave a great talk on how Chef practices DevOps.](https://www.youtube.com/watch?v=_DEToXsgrPc))
+DevOps [(per Adam Jacob, founder and CTO of Chef Software)](https://github.com/chef/devops-kungfu#what-is-devops), is a cultural and professional movement focused on how we build and operate high velocity organizations, born from the experiences of its practitioners. ([Adam gave a great talk on how Chef practices DevOps.](https://www.youtube.com/watch?v=_DEToXsgrPc))
 
 
 ## What's the difference?
@@ -40,6 +43,7 @@ There isn't much difference between Agile and DevOps in the startup, as you don'
 ### In the Mid-sized to Enterprise Space
 
 In the mid-sized to enterprise space, we tend to see people specializing into more dedicated roles.
+
 In this space, when we have Agile practices cranking up developer productivity and "releasing" software more frequently
 
 ![Devs shipping like a conveyor belt](https://stevenmurawski.com/talks/DevOps-Images/conveyor_belt.gif "Devs Be Like")
