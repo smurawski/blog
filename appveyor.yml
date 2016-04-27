@@ -68,5 +68,5 @@ deploy:
   website: stevenmurawski
   username: $stevenmurawski
   password:
-    secure: D7J8hUxui5QdUfZdV3KExmTDHJXzzrpz6kwMy0M9Ph4NIL1CinfnneEb4jN8e4XpOY3lA732m1cxsqYJp7F+Zw==
+    secure: C0VwIIJEv4bnG2/qfWJJHLJ0cBmjf4R7UGIQXPgz+uYIjZQFGPOQ3h4efs8nNZdc0fDmBbwnAG5eUi/HaRx5fw==
   remove_files: true
