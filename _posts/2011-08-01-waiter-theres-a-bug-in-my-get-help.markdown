@@ -22,7 +22,10 @@ In trying to research the problem, I found that PowerShell crashed ( yes, crashe
 Create a module that exports a function
 
 ```powershell
-$Path = 'c:\users\smurawski\documents\windowspowershell\TestModule.psm1'$null = new-item $Path -ItemType File -Force -Value @'
+
+$Path = 'c:\users\smurawski\documents\windowspowershell\TestModule.psm1'
+
+$null = new-item $Path -ItemType File -Force -Value @'
 function Test-One {
     [CmdletBinding()]
     param($x)
@@ -33,13 +36,13 @@ Export-ModuleMember -Function Test-One
 '@
 ```
 
-    Import the module
+Import the module
     
 ```powershell
 Import-Module TestModule
 ```
     
-    Create the proxy module
+Create the proxy module
     
 ```powershell
 Get-Module TestModule | 
@@ -47,13 +50,13 @@ Get-Module TestModule |
 ```
 
     
-    Import the proxy module
+Import the proxy module
     
 ```powershell
 Import-Module TestAssisted
 ```
     
-    Try to Get-Help for Test-One (shell will crash here)
+Try to Get-Help for Test-One (shell will crash here)
     
 ```powershell
 Get-Help test-one
