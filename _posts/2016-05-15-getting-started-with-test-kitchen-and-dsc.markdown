@@ -39,11 +39,11 @@ All of those things are customizable.
 
 [Test-Kitchen project](https://github.com/test-kitchen/test-kitchen)
 
-[kitchen-dsc](https://github.com/test-kitchen/kitchen-dsc/README.md)
+[kitchen-dsc](https://github.com/test-kitchen/kitchen-dsc/blob/master/README.md)
 
-[kitchen-hyperv](https://github.com/test-kitchen/kitchen-hyperv/README.md)
+[kitchen-hyperv](https://github.com/test-kitchen/kitchen-hyperv/blob/master/README.md)
 
-[kitchen-pester](https://github.com/test-kitchen/kitchen-pester/README.md)
+[kitchen-pester](https://github.com/test-kitchen/kitchen-pester/blob/master/README.md)
 
 [Example project - xWebAdministration](https://github.com/smurawski/xWebAdministration)
   
