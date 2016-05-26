@@ -6,6 +6,8 @@ permalink: /devops-reading-list/
 
 ## Concepts
 
+### Books
+
 - [The Phoenix Project](http://www.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B00AZRBLHO)
 - [Leading the Transformation](http://www.amazon.com/Leading-Transformation-Applying-DevOps-Principles-ebook/dp/B012P0D4YG)
 - [The Art of Business Value](http://www.amazon.com/Art-Business-Value-Mark-Schwartz-ebook/dp/B01DOGQBJ0)
@@ -17,7 +19,12 @@ permalink: /devops-reading-list/
 - [The Five Dysfunctions of a Team](http://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756)
 - [Turn the Ship Around](http://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404)
 
+### Whitepapers
+ - [The Release Pipeline Model](https://aka.ms/thereleasepipelinemodelpdf) by [Michael Greene](https://github.com/mgreenegit) and me.
+
 ## Operations
+
+### Books
 
 - [The Practice of Cloud Systems Administration](http://www.amazon.com/Practice-Cloud-System-Administration-Distributed/dp/032194318X)
 - [Web Operations](http://www.amazon.com/Web-Operations-Keeping-Data-Time/dp/1449377440)
@@ -26,6 +33,8 @@ permalink: /devops-reading-list/
 - [The Art of Capacity Planning](http://www.amazon.com/Art-Capacity-Planning-Scaling-Resources/dp/0596518579)
 
 ## Development
+
+### Books
 
 - [Clean Code](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 - [Clean Coder](http://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073)
