@@ -46,3 +46,7 @@ permalink: /devops-reading-list/
 - [Design Patterns](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
 - [Working Effectively With Legacy Code](http://www.amazon.com/Working-Effectively-Legacy-Robert-Martin-ebook/dp/B005OYHF0A)
 - [Version Control By Example](http://ericsink.com/vcbe/)
+
+### Articles
+
+- [Why the Best Companies and Developers Give Away Almost Everything They Do](http://www.themacro.com/articles/2016/05/why-the-best-give-away/)
