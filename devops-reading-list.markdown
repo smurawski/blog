@@ -18,6 +18,7 @@ permalink: /devops-reading-list/
 - [The Field Guide to Understanding 'Human Error'](http://www.amazon.com/Field-Guide-Understanding-Human-Error-ebook/dp/B00Q8XCSFI)
 - [The Five Dysfunctions of a Team](http://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756)
 - [Turn the Ship Around](http://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404)
+- [Effective DevOps](https://www.amazon.com/Effective-DevOps-Building-Collaboration-Affinity/dp/1491926309)
 
 ### Whitepapers
  - [The Release Pipeline Model](https://aka.ms/thereleasepipelinemodelpdf) by [Michael Greene](https://github.com/mgreenegit) and me.
