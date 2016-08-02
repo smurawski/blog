@@ -2,7 +2,7 @@ environment:
   access_token:
     secure: kdTM19O71SwMJdvAMtH5MTow+ovQ3jtqIvDwPZkeS0t7rWZGv4vHjfCi1C22tfuk
   matrix:
-    - ruby_version: "200"
+    - ruby_version: "22"
 
 clone_folder: c:\projects\blog
 clone_depth: 1
@@ -12,8 +12,6 @@ branches:
     - master
 
 cache:
-  - C:\Ruby200\lib\ruby\gems\2.0.0
-  - C:\Ruby200\bin
   - C:\Ruby22\bin
   - C:\Ruby22\lib\ruby\gems\2.2.0
 
