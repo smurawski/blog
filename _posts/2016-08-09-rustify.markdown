@@ -68,7 +68,7 @@ Rusty Code works best with a bit of setup.
 * Install racer - `cargo install racer`
 * Install rustsym - `cargo install rustsym`
 * Clone a copy of the Rust sources - `git clone https://github.com/rust-lang/rust`
-* Set a CARGO_HOME enviromental variable - `[Environment]::SetEnvironmentalVariable('CARGO_HOME', "$env:USERPROFILE/.cargo")`
+* Set a `CARGO_HOME` enviromental variable - `[Environment]::SetEnvironmentalVariable('CARGO_HOME', "$env:USERPROFILE/.cargo")`
 * Add the following settings to your user or workspace preferences in VS Code.  You'll want to change the rust source path to wherever you cloned it.  NOTE: You aren't just setting the path to the cloned repo, but to the src directory in the cloned repo.  And VS Code requires the escaped backslashes.
 
 ```
