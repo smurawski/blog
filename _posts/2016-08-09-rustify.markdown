@@ -34,7 +34,7 @@ You'll need to restart your shell for the new path additions to be picked up.
 
 Then you should be able to `rustc --version`.
 
-If you get an error complaining about the lack of msvcr120.dll, you'll need the [VS 2013 Visual C++ Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=40784) which you can grab from chocolatey.
+If you get an error complaining about the lack of msvcr120.dll or no output from `rustc --version`, you'll need the [VS 2013 Visual C++ Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=40784) which you can grab from chocolatey.
 
 ```
 choco install vcredist2013
@@ -48,7 +48,7 @@ If you are going to compile rust apps for the Microsoft Visual C++ runtime, you'
 choco install visualcppbuildtools
 ```
 
-or, for C# and VB.net tools as well, 
+and if you want the C# and VB.net tools as well, 
 
 ```
 choco install microsoft-build-tools
