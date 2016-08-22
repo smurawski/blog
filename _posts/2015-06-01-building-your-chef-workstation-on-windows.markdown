@@ -8,6 +8,8 @@ categories: []
 tags: []
 ---
 
+**UPDATE**
+[2016-08-22 - I've got a shorter, faster method now.](http://stevenmurawski.com/powershell/2016/08/simplified-chef-workstation/)
 
 ## So you want to Chef on Windows?
 
