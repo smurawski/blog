@@ -15,12 +15,25 @@
 
       <div class="trigger">
         {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
+          {% unless page.exclude %}
+            {% if page.title %}
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
+          {% endunless %}
         {% endfor %}
       </div>
+
     </nav>
+    <div class="grid" id="searchBar">
+      <div>
+        <div id="search">
+          <form role="search" method="get" action="{{site.baseurl}}/search/">
+              <input id="searchString" name="searchString"
+                     placeholder="chef on windows" type="text">
+              <input id="searchButton" name="googleSearchName" type="submit" value="Search">
+          </form>
+        </div>
+      </div>
 
   </div>
 
