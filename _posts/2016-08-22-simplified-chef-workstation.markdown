@@ -31,7 +31,7 @@ invoke-expression ((new-object net.webclient).DownloadString('https://chocolatey
 choco feature enable -n allowGlobalConfirmation
 
 # Get a basic setup recipe
-invoke-restmethod 'https://gist.githubusercontent.com/smurawski/da67107b5efd00876af7bb0c8cfe8453/raw' | out-file -encoding ascii -path c:/basic.rb
+invoke-restmethod 'https://gist.githubusercontent.com/smurawski/da67107b5efd00876af7bb0c8cfe8453/raw' | out-file -encoding ascii -filepath c:/basic.rb
 
 # Use Chef Apply to setup 
 chef-apply c:/basic.rb
