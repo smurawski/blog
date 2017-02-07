@@ -26,7 +26,7 @@ Get over yourself.  We've had remote management tools for years (going back to t
 
 <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
  
-
+</blockquote>
 
 ## If you were not willing to make that effort
 
