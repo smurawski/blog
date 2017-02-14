@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Late Start to 2017"
+author: steven.murawski@gmail.com
+comments: true
+categories: []
+tags: []
+---
+
+## Starting off quickly!
+
+My 2017 started off pretty well, with re-award of my Microsoft MVP status in Cloud and Datacenter Management.
+
+![MVP 2017 - Cloud and Datacenter Management]({{site.baseurl}}/talks/DevOps-Images/mvp_2017.jpg)
+
+That was followed up by a week in Seattle with a few hundred of my fellow Chef employees for our year kick off meeting.
+
+## More Habitat and Rust
+
+I've been working mostly on our [Habitat project](https://github.com/habitat-sh/habitat) since mid-August.  Habitat is mostly written in Rust and has been a great experience.
+
+## Chef 13 is Coming
+
+For Chef Client, we're moving to a yearly cadence for major releases (with continued minor version bumps every month).  This April will be the release of Chef 13, [which is really exciting times](https://blog.chef.io/2017/01/30/preparing-for-chef-13/)!
+
+## Conferences and Travel
+
+I've got a few conferences and events locked in for this year, and a few that I hope to be at.  The locked in events for this spring are:
+
+#### PowerShell and DevOps Summit - April 9-12 - Bellevue, WA
+
+[This year at the PowerShell Summit](https://eventloom.com/event/home/summit2017), we'll have two rooms where you can get expert feedback or help.
+
+Kirk Munro will be hosting a "Function Lab" and I will be hosting a "DSC Lab".  If you are planning to demo something for the Community Lightning Demos, these labs will be a great resource if you have some last minute questions or want a bit of peer review.
+
+#### ChefConf - May 22-24 - Austin TX
+
+[I'll be running a workshop on Monday, May 22nd on "Making Windows Work For You"](https://chefconf.chef.io/2017/agenda/).
+
+I do have to leave ChefConf early for...
+
+#### IT Transformation / DevIntersection - May 21-24
+
+I'll be speaking [about Continuous Delivery of Infrastructure with Chef and DSC, as well as Application Automation with Habitat](https://devintersection.com/#!/Sharepoint-Office365-Conference/sessions) there.
+
+You can use the discount code "MURAWSKI" and get $50 off registration.

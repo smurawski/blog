@@ -34,7 +34,7 @@ You'll need to restart your shell for the new path additions to be picked up.
 
 Then you should be able to `rustc --version`.
 
-If you get an error complaining about the lack of msvcr120.dll or no output from `rustc --version`, you'll need the [VS 2013 Visual C++ Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=40784) which you can grab from chocolatey.
+If you get an error complaining about the lack of msvcr120.dll (for the `stable-x86_64-pc-windows-msvc` target triple) or no output from `rustc --version`, you'll need the [VS 2013 Visual C++ Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=40784) which you can grab from chocolatey.
 
 ```
 choco install vcredist2013
@@ -60,9 +60,11 @@ Now, you are ready to write some rust!
 
 If you did not use `rustup-init` to install your rust environment, you'll want to make sure `%USERPROFILE%/.cargo/bin` is on your path.  Cargo is the package management tool for rust and that folder is where it drops binaries that it installs.
 
+*2/12/2017 UPDATE:* Rusty Code has been languishing.  There is a more actively developed fork - `Rust`, which I'm just starting to try out.
+
 I've become rather fond of Visual Studio Code, so I was happy to find a rust extension - Rusty Code.
 
-Rusty Code works best with a bit of setup.  
+Rusty Code (and the newer fork, Rust) works best with a bit of setup.  
 
 * Install rustfmt -  `cargo install rustfmt`
 * Install racer - `cargo install racer`
@@ -78,9 +80,7 @@ Rusty Code works best with a bit of setup.
     "rust.rustfmtPath": null, // Specifies path to Rustfmt binary if it's not in PATH
     "rust.rustsymPath": null, // Specifies path to Rustsym binary if it's not in PATH
     "rust.cargoPath": null, // Specifies path to Cargo binary if it's not in PATH
-    "rust.cargoHomePath": "C:\\Users\\Steven\\.cargo", // Path to Cargo home directory, mostly needed for racer. Needed only if using custom rust installation.
-    "rust.formatOnSave": false, // Turn on/off autoformatting file on save (EXPERIMENTAL)
-    "rust.checkOnSave": false, // Turn on/off `cargo check` project on save (EXPERIMENTAL)
-    "rust.checkWith": "build" // Specifies the linter to use. (EXPERIMENTAL)
+    "rust.cargoHomePath": null, // Path to Cargo home directory, mostly needed for racer. Needed only if using custom rust installation.
+    "editor.formatOnSave": true, // Run `rustfmt` on save.
 }
 ```
