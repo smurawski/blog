@@ -18,7 +18,7 @@ For VS Code, I have (at a minimum) several base plugins:
 * Git Blame
 * Git History (git log)
 * PowerShell
-* Rust
+* [Rust](https://marketplace.visualstudio.com/items?itemName=kalitaalexey.vscode-rust)
 * XML Tools
 
 And my user settings consists of:
