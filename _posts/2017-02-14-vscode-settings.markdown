@@ -19,9 +19,10 @@ For VS Code, I have (at a minimum) several base plugins:
 * Git History (git log)
 * PowerShell
 * [Rust](https://marketplace.visualstudio.com/items?itemName=kalitaalexey.vscode-rust)
+* Ruby
 * XML Tools
 
-And my user settings consists of:
+And my user settings include:
 
 ```
 "files.eol": "\n", // Windows usually doesn't care, but Linux/Mac tooling is way more sensitive
@@ -30,7 +31,13 @@ And my user settings consists of:
 "rust.cargoHomePath": "C:\\Users\\Steven\\.cargo", // Path to Cargo home directory, mostly needed for racer. Needed only if using custom rust installation.
 "editor.formatOnPaste": true,
 "editor.formatOnSave": true,
-"window.zoomLevel": 0
+"window.zoomLevel": 0,
+"[powershell]": {
+    "editor.tabSize": 4
+},
+"[ruby]": {
+    "editor.tabSize": 2
+}
 ```
 
 My git config consists of:
@@ -61,4 +68,4 @@ My git config consists of:
 
 Since I work on a number of projects that require a [DCO signoff](https://developercertificate.org/), I just default to signing off my commits (`alias.commit`) and I GPG sign them because I like how they look in the GitHub UI. ;)
 
-I've set git to only use Linux line feeds for new clones/fetches (`core.eol`) and change anything with CRLFs on upload (`core.autocrlf`).
+I've set git to only use Linux line feeds for new clones/fetches (`core.eol`) and change anything with CRLFs on upload (`core.autocrlf`).  To aid in this, my editor config has line endings set to `\n` as well.
