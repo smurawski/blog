@@ -24,7 +24,7 @@ Here's a bit of the job posting (with some comments from me).
 
 > The mission of the Cloud Developer Advocacy team is to win the hearts and minds of Developers and IT Operators to secure the future of the platform.   
 
-The first thing I'd like to call out is "hearts and minds of **Developers** and **IT Operators**".  In talking to [Jeff Sandquist]() (the GM responsible for the CDA program and docs.microsoft.com too) about the role, one thing that came up was the difference in messaging that Microsoft has had towards "IT Pros" and developers.  That situation is changing.  With the focus on DevOps, the lines are blurring between these roles and technical resources are technical resources - regardless of your job title.
+The first thing I'd like to call out is "hearts and minds of **Developers** and **IT Operators**".  In talking to [Jeff Sandquist](https://twitter.com/jeffsand) (the GM responsible for the CDA program and docs.microsoft.com too) about the role, one thing that came up was the difference in messaging that Microsoft has had towards "IT Pros" and developers.  That situation is changing.  With the focus on DevOps, the lines are blurring between these roles and technical resources are technical resources - regardless of your job title.
 
 > The Cloud Developer Advocacy team is first and foremost pivoted on enabling a healthy ecosystem for technical communities targeting Azure.
 
