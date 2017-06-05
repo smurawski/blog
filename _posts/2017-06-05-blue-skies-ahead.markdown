@@ -15,7 +15,7 @@ Today, I can share with you what my next role will be.
 
 I'm joining Microsoft as a Cloud Developer Advocate on [Donovan Brown's](https://twitter.com/DonovanBrown) team focused on DevOps scenarios.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Next member will be announced Monday! <a href="https://twitter.com/jsnover">@jsnover</a> will be very happy... <a href="https://twitter.com/hashtag/LeagueOfExtraordinaryCloudDevOpsAdvocates?src=hash">#LeagueOfExtraordinaryCloudDevOpsAdvocates</a><a href="https://twitter.com/hashtag/BlackShirt?src=hash">#BlackShirt</a> <a href="https://twitter.com/hashtag/RubDevOpsOnIt?src=hash">#RubDevOpsOnIt</a> <a href="https://t.co/1j0WR1LOdh">pic.twitter.com/1j0WR1LOdh</a></p>&mdash; Donovan L Brown (@DonovanBrown) <a href="https://twitter.com/DonovanBrown/status/870516385230630912">June 2, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Help me welcome the next member of the <a href="https://twitter.com/hashtag/LeagueOfExtraordinaryCloudDevOpsAdvocates?src=hash">#LeagueOfExtraordinaryCloudDevOpsAdvocates</a> <a href="https://twitter.com/StevenMurawski">@StevenMurawski</a> to <a href="https://twitter.com/Microsoft">@Microsoft</a> <a href="https://twitter.com/hashtag/RubDevOpsOnIt?src=hash">#RubDevOpsOnIt</a> <a href="https://twitter.com/hashtag/BlackShirt?src=hash">#BlackShirt</a> <a href="https://t.co/v5ucbnhVMR">pic.twitter.com/v5ucbnhVMR</a></p>&mdash; Donovan L Brown (@DonovanBrown) <a href="https://twitter.com/DonovanBrown/status/871598419864940544">June 5, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### What's a Cloud Developer Advocate?
@@ -24,7 +24,7 @@ Here's a bit of the job posting (with some comments from me).
 
 > The mission of the Cloud Developer Advocacy team is to win the hearts and minds of Developers and IT Operators to secure the future of the platform.   
 
-The first thing I'd like to call out is "hearts and minds of **Developers** and **IT Operators**".  In talking to [Jeff Sandquist]() (the GM responsible for the CDA program and docs.microsoft.com too) about the role, one thing that came us was the difference in messaging that Microsoft has had towards "IT Pros" and developers.  That situation is changing.  With the focus on DevOps, the lines are blurring between these roles and technical resources are technical resources - regardless of your job title.
+The first thing I'd like to call out is "hearts and minds of **Developers** and **IT Operators**".  In talking to [Jeff Sandquist]() (the GM responsible for the CDA program and docs.microsoft.com too) about the role, one thing that came up was the difference in messaging that Microsoft has had towards "IT Pros" and developers.  That situation is changing.  With the focus on DevOps, the lines are blurring between these roles and technical resources are technical resources - regardless of your job title.
 
 > The Cloud Developer Advocacy team is first and foremost pivoted on enabling a healthy ecosystem for technical communities targeting Azure.
 
