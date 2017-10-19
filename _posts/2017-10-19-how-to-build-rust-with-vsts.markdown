@@ -16,7 +16,7 @@ Thanks to a bit of prompting on Twitter, I've whipped up a **very** basic "Hello
 #### Mandatory:
 
 * A Microsoft account (like a Hotmail, Live, or Outlook.com account) OR an Azure AD account
-* A VSTS account ([How to ](https://docs.microsoft.com/en-us/vsts/accounts/create-account-msa-or-work-student))
+* A VSTS account ([How to create a VSTS account](http://cda.ms/2N))
 
 #### Optional:
 
@@ -40,7 +40,7 @@ As long as you have an internet accessible Git repository, you can use whatever 
 
 *Starting tag - [first](https://github.com/smurawski/vsts_rust_build/tree/first)*
 
-After [creating an new repository in GitHub](https://help.github.com/articles/creating-a-new-repository/) ([or in VSTS](https://docs.microsoft.com/en-us/vsts/git/create-new-repo)), clone the new repository down to your local workstation to a location where you'd normally work with source code.
+After [creating an new repository in GitHub](https://help.github.com/articles/creating-a-new-repository/) ([or in VSTS](http://cda.ms/2P)), clone the new repository down to your local workstation to a location where you'd normally work with source code.
 
 `git clone https://github.com/smurawski/vsts_rust_build.git`
 
@@ -107,7 +107,7 @@ git push origin master
 
 #### Adding the Windows Build To VSTS
 
-My VSTS account is `smurawski`, so I'll start at [my account landing page](https://smurawski.visualstudio.com).  I'll create a new project called `vsts_rust_hello_world` ([more documentation on how to create a team project](https://docs.microsoft.com/en-us/vsts/accounts/create-team-project?tabs=vsts)).
+My VSTS account is `smurawski`, so I'll start at [my account landing page](https://smurawski.visualstudio.com).  I'll create a new project called `vsts_rust_hello_world` ([more documentation on how to create a team project](http://cda.ms/2Q)).
 
 Once I have my project, I'll need to create a build definition from the "Builds" page (my url for that will be at https://smurawski.visualstudio.com/vsts_rust_hello_world/vsts_rust_hello_world%20Team/_build).
 
@@ -118,25 +118,37 @@ invoke-restmethod https://raw.githubusercontent.com/smurawski/vsts_rust_build/ma
 invoke-restmethod https://raw.githubusercontent.com/smurawski/vsts_rust_build/master/build_definitions/vsts_rust_hello_world-linux-CI.json -outfile vsts_rust_hello_world-linux-CI.json 
 ```
 
-On that page, I'll select import and upload `vsts_rust_hello_world-windows-CI.json`.  We'll have to update the `Get sources` step to pull from our repository ([about repositories](https://docs.microsoft.com/en-us/vsts/build-release/concepts/definitions/build/repository)).
+![Windows Build Definition]({{site.baseurl}}/talks/DevOps-Images/2017-10-19 17_52_49-vsts_rust_hello_world-windows-CI‎.png)
 
-[We'll also need to update the build trigger](https://docs.microsoft.com/en-us/vsts/build-release/concepts/definitions/build/triggers).  When building from GitHub, I normally trigger builds on changes to master.
+On that page, I'll select import and upload `vsts_rust_hello_world-windows-CI.json`.  We'll have to update the `Get sources` step to pull from our repository ([about repositories](http://cda.ms/2R)).
+
+![Windows Get Sources]({{site.baseurl}}/talks/DevOps-Images/2017-10-19 17_54_10-vsts_rust_hello_world-windows-CI‎.png)
+
+[We'll also need to update the build trigger](http://cda.ms/2S).  When building from GitHub, I normally trigger builds on changes to master.
+
+![Windows Build Trigger]({{site.baseurl}}/talks/DevOps-Images/2017-10-19 18_07_03-vsts_rust_hello_world-windows-CI‎.png)
 
 After we've updated these things, we can save the build definition.
 
-[More reading...](https://docs.microsoft.com/en-us/vsts/build-release/actions/ci-cd-part-1)
+[More reading...](http://cda.ms/2T)
 
 #### Adding the Linux Build to VSTS
 
 Next, we can import the linux build definition.  Back on the "Builds" page, we can import `vsts_rust_hello_world-linux-CI.json`.
 
+![Linux Build Definition]({{site.baseurl}}/talks/DevOps-Images/2017-10-19 17_55_55-vsts_rust_hello_world-linux-CI‎.png)
+
 We'll have to fix the `Get sources` for this build as we did in the Windows build.
+
+![Linux Get Sources]({{site.baseurl}}/talks/DevOps-Images/2017-10-19 17_56_03-vsts_rust_hello_world-linux-CI‎.png)
 
 After we save this build definition, we'll need to get the "Build Definition ID".  I couldn't figure out how to trigger multiple builds using different build queues directly in VSTS (maybe someone more knowledgeable than I can help out..), so we have a step in the Windows build to use the REST API to kick off the Linux build after the Windows build.  This step requires us to supply the "Build Definition ID" for the Linux build to the Windows build.
 
 You can find the "Build Definition ID" in the URL for the build definition after it has been saved.  In my case, with `https://smurawski.visualstudio.com/vsts_rust_hello_world/vsts_rust_hello_world%20Team/_build/index?context=mine&path=%5C&definitionId=51&_a=completed` that is 51.
 
 Once we've got the ID number, we can edit our Windows build definition and update the `LINUXBUILD_DEFINITIONID` variable in the "Variables" tab of the edit Build screen.
+
+![Linux Build ID]({{site.baseurl}}/talks/DevOps-Images/2017-10-19 17_54_30-vsts_rust_hello_world-windows-CI‎.png)
 
 ### Starting The Build
 
