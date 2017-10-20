@@ -14,7 +14,7 @@ permalink: /powershell/:year/:month/:title/index.html
 markdown: redcarpet
 markdown_ext: markdown, md
 
-exclude: ['Gemfile', 'Gemfile.lock', 'appveyor.yml', 'LICENSE']
+exclude: ['Gemfile', 'Gemfile.lock', 'appveyor.yml', 'LICENSE', 'talks']
 
 gems:
   - jekyll-sitemap

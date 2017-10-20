@@ -36,6 +36,7 @@ build_script:
 
   - bundle install || bundle install || bundle install
   - bundle exec jekyll build
+  - ps: cp ./talks -dest ./_site/ -recurse -force
   - cd _site
   - 7z a -tzip c:\projects\blog\deploy.zip .\
   - cd ..
