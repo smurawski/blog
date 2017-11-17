@@ -21,3 +21,15 @@ In that file set:
 Style/EndOfLine:
   EnforcedStyle: lf
 ```
+
+The other area where I've seen this error reported is not having an empty comment line at the top and/or if there is a comment bloc at the top, not having an empty comment at the end.
+
+```
+#
+# Cookbook:: testing
+# Spec:: default
+#
+# Copyright:: 2017, The Authors, All Rights Reserved.
+#
+
+```
