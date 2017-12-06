@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</title>
+    <link>https://stevenmurawski.com/categories/azure/</link>
+    <description>Recent content in Azure on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jul 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stevenmurawski.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PowerShell in Azure</title>
+      <link>https://stevenmurawski.com/2009/07/01/powershell-in-azure/</link>
+      <pubDate>Wed, 01 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/07/01/powershell-in-azure/</guid>
+      <description>The July CTP release of the Windows Azure SDK contains a new sample project called PowerShellRole which demonstrates that PowerShell is available in the cloud!
+Previous versions of the CTP have come with a sample Provider which you could use to access Azure storage (blobs, queues, and tables), but this actually provides demonstration of creating runspaces and executing pipelines in the cloud.
+Now to see what version is running in the cloud!</description>
+    </item>
+    
+  </channel>
+</rss>

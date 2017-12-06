@@ -1,0 +1,32 @@
+baseURL: https://stevenmurawski.com
+theme: ghostwriter
+disablePathToLower: true
+languageCode: en-us
+title: A Sysadmin, An SRE, and a DevOps Walk Into a Bar
+permalinks:
+  post: /powershell/:year/:month/:title/
+relativeURLs: false
+googleAnalytics: UA-36317457-1
+disqusShortname: stevenmurawski
+params:
+  github: "https://github.com/smurawski"
+  linkedin: "https://linkedin.com/in/usepowershell"
+  twitter: "https://twitter.com/stevenmurawski"
+  stackoverflow: "https://stackoverflow.com/users/1233/steven-murawski"
+  shareTwitter: true
+  shareFacebook: true
+  shareGooglePlus: true
+  shareLinkedIn: true
+author:
+  name: Steven Murawski
+menu:
+  main:
+    - name: About
+      url: "/page/about"
+      weight: 1
+    - name: Blog
+      url: "/"
+      weight: 2
+    - name: DevOps Reading List
+      url: "/page/devops-reading-list"
+      weight: 3

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows Server on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</title>
+    <link>https://stevenmurawski.com/categories/windows-server/</link>
+    <description>Recent content in Windows Server on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Nov 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stevenmurawski.com/categories/windows-server/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Server 2012 in 31 Days–Recap</title>
+      <link>https://stevenmurawski.com/2012/11/01/server-2012-in-31-daysrecap/</link>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2012/11/01/server-2012-in-31-daysrecap/</guid>
+      <description>My friend Microsoft IT Pro Evangelist Brian Lewis (twitter, blog) contacted me about a series he, Matt Hester, Keith Mayer, and Kevin Remde were going to do through the month of October on their favorite things in Server 2012.&amp;#160;
+&amp;#160;
+My first thought was that a month was not enough, since Server 2012 is chock full of new goodness.&amp;#160; I watched the series develop and added my own meager contribution on what I think is the killer feature in Server 2012 – SMB3 and Continuously Available File Shares.</description>
+    </item>
+    
+    <item>
+      <title>Server 2012–Continuously Available File Shares</title>
+      <link>https://stevenmurawski.com/2012/10/01/server-2012continuously-available-file-shares/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2012/10/01/server-2012continuously-available-file-shares/</guid>
+      <description>I think SMB3 and the enhancements to the clustered file share roles are some of the most important new features in Server 2012.
+&amp;#160;
+There are some great new features in file shares and the SMB protocol.&amp;#160; Some of the terminology can be confusing, so I’m going to loosely define a few of them right up front.
+**SMB3 – **Revised SMB protocol with improved performance, scaling, and support for technology like RSS and RDMA.</description>
+    </item>
+    
+  </channel>
+</rss>

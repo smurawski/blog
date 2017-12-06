@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</title>
+    <link>https://stevenmurawski.com/tags/</link>
+    <description>Recent content in Tags on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 May 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stevenmurawski.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2011scriptinggames</title>
+      <link>https://stevenmurawski.com/tags/2011scriptinggames/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/tags/2011scriptinggames/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive Type System</title>
+      <link>https://stevenmurawski.com/tags/adaptive-type-system/</link>
+      <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/tags/adaptive-type-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Naming</title>
+      <link>https://stevenmurawski.com/tags/naming/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/tags/naming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parameters</title>
+      <link>https://stevenmurawski.com/tags/parameters/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/tags/parameters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Powershell</title>
+      <link>https://stevenmurawski.com/tags/powershell/</link>
+      <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/tags/powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ps1xml</title>
+      <link>https://stevenmurawski.com/tags/ps1xml/</link>
+      <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/tags/ps1xml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timeout</title>
+      <link>https://stevenmurawski.com/tags/timeout/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/tags/timeout/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Type Data</title>
+      <link>https://stevenmurawski.com/tags/type-data/</link>
+      <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/tags/type-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>https://stevenmurawski.com/tags/variables/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/tags/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wmi</title>
+      <link>https://stevenmurawski.com/tags/wmi/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/tags/wmi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

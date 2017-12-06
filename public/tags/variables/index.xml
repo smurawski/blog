@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Variables on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</title>
+    <link>https://stevenmurawski.com/tags/variables/</link>
+    <description>Recent content in Variables on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 May 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stevenmurawski.com/tags/variables/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Back to Basics - Variable Names</title>
+      <link>https://stevenmurawski.com/2011/05/01/back-to-basics-variable-names/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2011/05/01/back-to-basics-variable-names/</guid>
+      <description>$x and $z and $foo just aren&amp;rsquo;t going to cut it in your production scripts.&amp;#160;
+Andy Schneider tweeted during the Scripting Games that there was no penalty for providing a descriptive variable name.&amp;#160; He was right and not quite right enough.&amp;#160; Twitter does not provide you the opportunity to share more than a sound bite in one tweet, so he really could not have commented much further there, but he did in a post that expanded on what judges were looking for in style for the Scripting Games.</description>
+    </item>
+    
+  </channel>
+</rss>

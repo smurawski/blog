@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Essential Skills For a DevOps World</title>
+
+		<meta name="description" content="What you need to know to take charge of your career in a DevOps world.">
+		<meta name="author" content="Steven Murawski">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+        <section data-background="./DevOps-Images/warning.png" data-background-size=300px data-markdown>
+          <script type="text/template">
+            ## Warning!  Warning!!
+            - This Material May Be Harmful To Traditional IT Professionals
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            - If You Like The Status Quo You May Want To Go Go The Other Session
+            - You Cannot Unlearn This Material
+          </script>
+				</section>
+
+				<section data-markdown>
+          <script type="text/template">
+            ## Essential Skills For a DevOps World
+            ### Or how to Survive and Thrive in a DevOps World
+            [Steven Murawski](http://stevenmurawski.com)
+
+            Principal Engineer
+
+            Community Engineering @ [Chef](https://chef.io)
+            <br />
+            Microsoft MVP - Cloud and Datacenter Management
+          </script>
+				</section>
+
+				<section data-markdown>
+          <script type="text/template">
+            ### Work ever feel like this?
+            ![Traditional IT Is Like Jenga](./DevOps-Images/jenga.jpg)
+          </script>
+				</section>
+
+				<section data-markdown>
+          <script type="text/template">
+            ### Then you hear about companies like Etsy or Stack Exchange
+            ### Where they do the DevOps
+            ![DevOps is All Joy](./DevOps-Images/kumbaya.jpg)
+            ### And if feels like you may be missing out...
+          </script>
+				</section>
+
+				<section data-markdown>
+          <script type="text/template">
+            ### What's standing in your way?
+            ![Your worst enemy](./DevOps-Images/mirror.gif)
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Or maybe these people are...
+          ![Got to love coworkers](./DevOps-Images/nerd-fight.jpg)
+          ### Don't you just love your co-workers?
+          </script>
+				</section>
+
+				<section data-markdown>
+          <script type="text/template">
+            ### It's time to step up our game.
+            ![Bring it!](./DevOps-Images/step_up.jpg)
+
+            We are IT Professionals, and it's time to start acting that way.
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### This session will start you on the path to break through
+          ![Bust through](./DevOps-Images/breaking-down-walls.jpg)
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Are you ready to get started? 
+          ### Let's take your work environment
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ![Ugh](./DevOps-Images/Cabling-Beginning.jpg)
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          #### to
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ![Ohh](./DevOps-Images/Cabling-Result.jpg)
+          </script>
+				</section>
+
+				<section data-markdown>
+          <script type="text/template">
+            ### What Do We Need To Start With 
+
+            - Source Control
+            - Continous Delivery
+            - Testing
+            - Centralized Logging
+            - Service Monitoring
+            - Other Reading
+          </script>
+				</section>
+
+				<section data-markdown>
+          <script type="text/template">
+          ### Tools and Practices can reshape our culture
+          ![The First Way](./DevOps-Images/first-way2.png)
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Embrace Consistency and Repeatability
+          </script>
+				</section>
+
+				<section data-markdown>
+          <script type="text/template">
+          ### Everything Starts in Source Control.
+          ![Source Rules All](./DevOps-Images/source_control.png)
+          ### Everyone starts with source control.
+          </script>
+				</section>
+        <section>
+          <section data-markdown>
+            <script type="text/template">
+            ### What should we put in source control?
+            ![All The Things!](./DevOps-Images/what_goes_in_source.png)
+            </script>
+  				</section>
+          <section data-markdown>
+            <script type="text/template">
+            ### What source control should I use?
+            
+            - Does not matter <!-- .element: class="fragment" -->
+            - But use git <!-- .element: class="fragment" -->
+            - GitHub is where all the cool projects are (including DSC resources) <!-- .element: class="fragment" -->
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+            ### Basic git commands
+
+            - git clone <!-- .element: class="fragment" -->
+            - git checkout <!-- .element: class="fragment" -->
+            - git add / git rm <!-- .element: class="fragment" -->
+            - git commit <!-- .element: class="fragment" -->
+            - git push <!-- .element: class="fragment" -->
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+            ### 
+            </script>
+          </section>
+        </section>
+        
+        <section data-markdown>
+          <script type="text/template">
+          ### Everyone Should Strive for Continuous Delivery
+          #### Of
+
+          - Infrastructure <!-- .element: class="fragment" -->
+          - Applications <!-- .element: class="fragment" -->
+          - Coffee <!-- .element: class="fragment" -->
+          
+          See: http://aka.ms/thereleasepipelinemodel
+          </script>
+        </section>
+          
+
+        <section data-markdown>
+          <script type="text/template">
+          #### The First Rule of Automation Club
+          ### No Magic People or Machines
+          </script>
+				</section>
+
+        <section>
+          <section data-markdown>
+            <script type="text/template">
+            ### You need a build process
+
+            Builds
+
+            - Pull from source control <!-- .element: class="fragment" -->
+            - Run Automated Tests <!-- .element: class="fragment" -->
+            - Deploy to the desired environment  <!-- .element: class="fragment" -->
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+            ### Uh.. Wait... Automated Tests?
+            ![What!](./DevOps-Images/what.gif)
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+            ### Types of tests
+
+            - Linting <!-- .element: class="fragment" -->
+            - Unit <!-- .element: class="fragment" -->
+            - Functional <!-- .element: class="fragment" -->
+            - Integration or Acceptance <!-- .element: class="fragment" -->
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+            ### Recipe for Success
+            ![Recipe for Success](./DevOps-Images/delivery-recipe.png)
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+            ### Delivery Pipeline
+            ![Delivery Pipeline](./DevOps-Images/delivery-pipeline.png)
+            </script>
+          </section>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### What about that deploy step?
+          - Does not have to be production or even to an operating environment <!-- .element: class="fragment" -->
+          - You can put whatever workflow in the way you need to <!-- .element: class="fragment" -->
+          - But, maintenance windows... <!-- .element: class="fragment" --> 
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          # Getting information back
+          ![The Second Way](DevOps-Images/second-way1.png)
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Centralized Logging
+
+          - Event Log Forwarding
+          - ELK (Elastic Search / Logstash / Kibana)
+          - Splunk
+          - Something Else
+
+          #### Required Logs *Must* Not Be Only On the Box.
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Service Monitoring
+          - Simple machine up/down does not matter because cloud
+          - IT needs to know what it means for a service to be healthy <!-- .element: class="fragment" -->
+          - That means developers and IT need to figure out what that means <!-- .element: class="fragment" -->
+          - This can be refined over time if you practice the first way with your monitoring technology <!-- .element: class="fragment" --> 
+          </script>
+				</section>
+        
+        <section data-markdown>
+          <script type="text/template">
+          ### Application Metrics
+          ![Stats](./DevOps-Images/stats.gif)
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### This is the path to velocity
+          ![The Third Way](./DevOps-Images/third-way.png)
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Other Reading and Topics 
+          [DevOps Reading List](http://stevenmurawski.com/devops-reading-list)
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ![Boom](./DevOps-Images/head_explode.gif) 
+          </script>
+				</section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Questions? 
+          </script>
+				</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

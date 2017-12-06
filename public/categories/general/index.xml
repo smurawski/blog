@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</title>
+    <link>https://stevenmurawski.com/categories/general/</link>
+    <description>Recent content in General on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Nov 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stevenmurawski.com/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Server 2012 in 31 Days–Recap</title>
+      <link>https://stevenmurawski.com/2012/11/01/server-2012-in-31-daysrecap/</link>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2012/11/01/server-2012-in-31-daysrecap/</guid>
+      <description>My friend Microsoft IT Pro Evangelist Brian Lewis (twitter, blog) contacted me about a series he, Matt Hester, Keith Mayer, and Kevin Remde were going to do through the month of October on their favorite things in Server 2012.&amp;#160;
+&amp;#160;
+My first thought was that a month was not enough, since Server 2012 is chock full of new goodness.&amp;#160; I watched the series develop and added my own meager contribution on what I think is the killer feature in Server 2012 – SMB3 and Continuously Available File Shares.</description>
+    </item>
+    
+    <item>
+      <title>Back on RunAs Radio</title>
+      <link>https://stevenmurawski.com/2012/06/01/back-on-runas-radio/</link>
+      <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2012/06/01/back-on-runas-radio/</guid>
+      <description>Richard Campbell was kind enough to have me back on RunAs Radio to talk about SMB3 and Scale-Out File Shares in Windows Server 2012.&amp;#160; We didn’t really talk about anything PowerShell related, but SMB3 and Scale-Out File Shares are a radical topic and are changing my data center deployments in a very good way.&amp;#160; Richard is a super smart guy and always drives the conversation in interesting directions, bringing out points that might have passed by and offering interesting insights that really make you think.</description>
+    </item>
+    
+    <item>
+      <title>The Games Are Afoot!</title>
+      <link>https://stevenmurawski.com/2012/04/01/the-games-are-afoot/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2012/04/01/the-games-are-afoot/</guid>
+      <description>The Scripting Games that is! This year’s games are in progress, but it’s not too late to start.&amp;#160; Each weekday a new event is posted, but you have a week to turn in your solution, so get out there and start writing some PowerShell.
+All the details you need are available from the Scripting Games All In One Links Page, where the Scripting Guy Ed Wilson has thoughtfully provided (and updates daily) links to the events, rules, and other great information.</description>
+    </item>
+    
+    <item>
+      <title>Starting 2012 with a Bang</title>
+      <link>https://stevenmurawski.com/2012/01/01/starting-2012-with-a-bang/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2012/01/01/starting-2012-with-a-bang/</guid>
+      <description>I’m so excited for 2012, personally and professionally.&amp;#160; I started the year with a great honor, I was awarded a Microsoft MVP award for PowerShell.
+Just a bit of background…&amp;#160; I started in IT in 2006 as the IT guy for a municipal police department.&amp;#160; It was the first such full time position the department had.&amp;#160; I immediately became responsible for a public safety network that needed to be operational 24&amp;frasl;7.</description>
+    </item>
+    
+    <item>
+      <title>Round up</title>
+      <link>https://stevenmurawski.com/2011/04/01/round-up/</link>
+      <pubDate>Fri, 01 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2011/04/01/round-up/</guid>
+      <description>Just some odds and ends from the week -
+ Blog post and script from James Brundage on converting scripts, functions, or cmdlets into executables. The Scripting Games are underway. My session on Building a Management API with PowerShell for the Chicago Code Camp was accepted. Andy Schneider had a great post about modules. Jeff Hicks helps us clear aliases from our scripts (in the ISE). Doug Finke shows us how to use Excel math functions in PowerShell.</description>
+    </item>
+    
+    <item>
+      <title>Scripting Games Beginner Events Survey</title>
+      <link>https://stevenmurawski.com/2011/04/01/scripting-games-beginner-events-survey/</link>
+      <pubDate>Fri, 01 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2011/04/01/scripting-games-beginner-events-survey/</guid>
+      <description>[SURVEYS 1]</description>
+    </item>
+    
+    <item>
+      <title>Lake County .NET Users Group–Slide Deck and Samples</title>
+      <link>https://stevenmurawski.com/2010/11/01/lake-county-net-users-groupslide-deck-and-samples/</link>
+      <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2010/11/01/lake-county-net-users-groupslide-deck-and-samples/</guid>
+      <description>Scott Seely and Tim Stall invited me to give an introduction to PowerShell talk for the Lake County .NET Users Group yesterday evening.
+We had a great turnout and a number of good questions.&amp;#160; Thank you to everyone who gave up part of their evening to come and learn a bit about the .NET command shell goodness that is PowerShell.&amp;#160;
+I’ve uploaded the slide deck, sample scripts, and sample Visual Studio solution here.</description>
+    </item>
+    
+    <item>
+      <title>April Script Club – Special Guest</title>
+      <link>https://stevenmurawski.com/2010/04/01/april-script-club-special-guest/</link>
+      <pubDate>Thu, 01 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2010/04/01/april-script-club-special-guest/</guid>
+      <description>The Greater Milwaukee Script Club will be meeting on April 20th and we will have a special guest – James Brundage (twitter | blog | blog).&amp;#160; James is a member of the PowerShell team at Microsoft, as well as a blogger, community member, guest on the PowerScripting Podcast, and author of the PowerShellPack – part of the Windows Resource Kit.
+Last month, we used the Admin Development Model to solve a particular problem one of our brave volunteers was trying to deal with in his environment.</description>
+    </item>
+    
+    <item>
+      <title>Chicago Code Camp – May 1</title>
+      <link>https://stevenmurawski.com/2010/04/01/chicago-code-camp-may-1/</link>
+      <pubDate>Thu, 01 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2010/04/01/chicago-code-camp-may-1/</guid>
+      <description>The Chicago Code Camp is being held on Saturday, May 1st.&amp;#160; I’ll be presenting a PowerShell Deep Dive.&amp;#160; If you are in the Chicago area and want to get down into the guts of the PowerShell language and runtime (or many other great sessions!), come on out.&amp;#160; There were 100 97 tickets available last time I checked…</description>
+    </item>
+    
+    <item>
+      <title>Deep Fried PowerShell</title>
+      <link>https://stevenmurawski.com/2010/02/01/deep-fried-powershell/</link>
+      <pubDate>Mon, 01 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2010/02/01/deep-fried-powershell/</guid>
+      <description>Back in August, I was offered a chance to make a fool of myself on yet another podcast tremendously honored by the opportunity to talk with Keith Elder and Chris “Woody” Woodruff on their podcast – Deep Fried Bytes – about PowerShell.
+Keith and Chris are great guys, very sharp, and asked some good questions.&amp;#160; If you pop over to take a listen to my appearance, make sure to go back and take a look through their archives.</description>
+    </item>
+    
+    <item>
+      <title>Wisconsin Virtual SQL Server Lunch and Learn</title>
+      <link>https://stevenmurawski.com/2010/02/01/wisconsin-virtual-sql-server-lunch-and-learn/</link>
+      <pubDate>Mon, 01 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2010/02/01/wisconsin-virtual-sql-server-lunch-and-learn/</guid>
+      <description>I just finished taking up 13 people’s lunch hour to talk a bit about PowerShell V2, SQL Server, and the admin development model.
+I want to thank John Allman and the Wisconsin SQL Server User Group for allowing me the time to share a bit about PowerShell.&amp;#160; I believe John will be posting the recording for those who are interested.
+My slide deck is available here.&amp;#160; The slides aren’t worth much, but the resources on the last two are where the real meat is.</description>
+    </item>
+    
+    <item>
+      <title>Greater Milwaukee Script Club – Take 2</title>
+      <link>https://stevenmurawski.com/2010/01/01/greater-milwaukee-script-club-take-2/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2010/01/01/greater-milwaukee-script-club-take-2/</guid>
+      <description>We had a pretty good turnout for the first Greater Milwaukee Script Club and a lot of interest in keeping it going, so I’ve set up a home page for the group on Joel “Jaykul” Bennet’s PowerShellGroup.Org site, which serves as a portal page for PowerShell user groups.
+Rod Gabriel (who heads up our local VMWare User Group) has an excellent review of the event.&amp;#160; He covers why he considered attending (including why learning PowerShell was becoming a priority for him), as well as the event itself.</description>
+    </item>
+    
+    <item>
+      <title>I&#39;ll be on the PowerScripting Podcast!</title>
+      <link>https://stevenmurawski.com/2010/01/01/ill-be-on-the-powerscripting-podcast/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2010/01/01/ill-be-on-the-powerscripting-podcast/</guid>
+      <description>I&amp;rsquo;ll be on the PowerScripting podcast with Jonathan Walz and Hal Rottenberg for this week&amp;rsquo;s live stream. We&amp;rsquo;ll be talking about PowerShellCommunity.Org, the Sync Framework, and more&amp;hellip;
+I love that podcast and am really looking forward to it! Also, they recently posted an interview with Clint Huffman, who is the author of PAL. Good stuff!</description>
+    </item>
+    
+    <item>
+      <title>Script Injection with Set-PSBreakpoint</title>
+      <link>https://stevenmurawski.com/2010/01/01/script-injection-with-set-psbreakpoint/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2010/01/01/script-injection-with-set-psbreakpoint/</guid>
+      <description>I’ve used the integrated debugging features with PowerShell V2 since I’ve had it available, but I never really dug below the surface of setting breakpoints at certain lines.
+Set-PSBreakpoint offers some additional options of which I was not aware.
+ Setting a breakpoint in relation to a variable (read, assigned, or both) Setting a breakpoint when a function or command is called Setting a breakpoint based on the column number for the referenced line Run a scriptblock when a breakpoint is hit Breakpoints do not need to be set on a script  Let’s dig into these in a bit more detail:</description>
+    </item>
+    
+    <item>
+      <title>Script Club – Coming to the Greater Milwaukee Area</title>
+      <link>https://stevenmurawski.com/2009/12/01/script-club-coming-to-the-greater-milwaukee-area/</link>
+      <pubDate>Tue, 01 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/12/01/script-club-coming-to-the-greater-milwaukee-area/</guid>
+      <description>Register here. About PowerShell Script Club  You Always Talk About Script club 2. You Always Talk About Script Club 3. If Someone asks for Help, And You Can Help, You Help 4. Two People Help One Person at One Time 5. One Module Per Person Per Night 6. All Scripts, All PowerShell 7. Scripts will be as short as they can be 8. If This is your First time at Script Club, You Have to Script  The first Greater Milwaukee PowerShell Script Club is being formed.</description>
+    </item>
+    
+    <item>
+      <title>All Sorts of New</title>
+      <link>https://stevenmurawski.com/2009/11/01/all-sorts-of-new/</link>
+      <pubDate>Sun, 01 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/11/01/all-sorts-of-new/</guid>
+      <description>A lot has happened since I last had the opportunity to post.&amp;#160;
+Quick recap:
+ PowerShell v2 is now out and available for XP, Server 2003, Vista, Server 2008, and installed and on by default for Windows 7 and Server 2008 R2 SharePoint 2010 has an insane number (492) There is an open source cmdlet and help designer Try PowerShell is a great way to explore The PowershellPack provides some great modules that get you jump started with V2.</description>
+    </item>
+    
+    <item>
+      <title>Dear Devs,  Give Us The Tools.  K Thx</title>
+      <link>https://stevenmurawski.com/2009/07/01/dear-devs-give-us-the-tools-k-thx/</link>
+      <pubDate>Wed, 01 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/07/01/dear-devs-give-us-the-tools-k-thx/</guid>
+      <description>I just finished listening to the latest Herding Code podcast (#52) where the hosts (K. Scott Allen, Kevin Dente, Scott Koon, and Jon Galloway) talked with Alan Stevens ( C# MVP and ASP Insider) and G. Andrew Duthie (author and Microsoft Developer Evangelist) about a debate that began on Twitter regarding “Real Software Development vs Microsoft Bubble Development”. What does that have to do with PowerShell and administrative tools? The specifics of their conversation don’t have a lot of relevance to administrators and scripters, but one of the directions that their conversation took really resonated with me.</description>
+    </item>
+    
+    <item>
+      <title>More PowerShell on the Thirsty Developer</title>
+      <link>https://stevenmurawski.com/2009/06/01/more-powershell-on-the-thirsty-developer/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/06/01/more-powershell-on-the-thirsty-developer/</guid>
+      <description>Larry Clarkin asked me back on the Thirsty Developer to continue talking about development and PowerShell.&amp;#160; We talked about creating cmdlets, hosting PowerShell, and a bit about Version 2.&amp;#160; Check it out here.</description>
+    </item>
+    
+    <item>
+      <title>Response: Give Me A Coconut and Six Months</title>
+      <link>https://stevenmurawski.com/2009/06/01/response-give-me-a-coconut-and-six-months/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/06/01/response-give-me-a-coconut-and-six-months/</guid>
+      <description>I was tagged by SQL Server Expert Brent Ozar in his response to a great, thought provoking blog post called Give Me a Coconut and Six Months by Tim Ford (SQLAgentMan on Twitter).
+The short summary of the post is if you had six months free of distraction, what would you turn your attention to.&amp;#160; Tim’s choices included backups, security, and monitoring, which I think is a great “solid foundation” to work from.</description>
+    </item>
+    
+    <item>
+      <title>Tip: Focus Your Scripts and Functions</title>
+      <link>https://stevenmurawski.com/2009/06/01/tip-focus-your-scripts-and-functions/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/06/01/tip-focus-your-scripts-and-functions/</guid>
+      <description>The PowerShell paradigm is the task based cmdlet.&amp;#160; With cmdlets that surface a single function that handle a multitude of inputs, a PowerShell session or script can read back like a sentence.&amp;#160;
+Get-Process –Name iexplore | Where-Object {$_.WorkingSet –gt 50000000 } | Stop-Process
+In the above (often overused, but illustrates the point well) example, Get-Process, Where-Object, and Stop-Process all accurately describe the task that they perform.
+We can take this same approach with our scripts and functions.</description>
+    </item>
+    
+    <item>
+      <title>Tip: Keeping Your Scripts DRY.</title>
+      <link>https://stevenmurawski.com/2009/06/01/tip-keeping-your-scripts-dry/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/06/01/tip-keeping-your-scripts-dry/</guid>
+      <description>DRY?&amp;#160; Does this mean I can’t use PowerShell on a water-cooled PC?
+DRY is a principle that can be very familiar to the PowerShell aficionado with a development background.&amp;#160; DRY means Don’t Repeat Yourself.&amp;#160; Keeping your scripts DRY means that our scripts don’t contain repeated code.&amp;#160; Copy/Paste is not your friend!
+Why should PowerShell scripters care about keeping their PowerShell DRY?&amp;#160; One major reason – script maintainability.
+PowerShell has a huge advantage over scripting environments/shells in that the noun/verb structure lends itself to very readable scripts.</description>
+    </item>
+    
+    <item>
+      <title>PowerScripting Podcast – New Night (temporary change)</title>
+      <link>https://stevenmurawski.com/2009/05/01/powerscripting-podcast-new-night-temporary-change/</link>
+      <pubDate>Fri, 01 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/05/01/powerscripting-podcast-new-night-temporary-change/</guid>
+      <description>For the next month or two, the PowerScripting Podcast will be live on Tuesday nights at 9 PM Eastern / 8 PM Central.&amp;#160; Be sure to update your calendars and stop in for some great, interactive PowerShell content.</description>
+    </item>
+    
+    <item>
+      <title>WI VMUG Presentation with Scott Herold</title>
+      <link>https://stevenmurawski.com/2009/05/01/wi-vmug-presentation-with-scott-herold/</link>
+      <pubDate>Fri, 01 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/05/01/wi-vmug-presentation-with-scott-herold/</guid>
+      <description>This morning, Scott Herold and I did back to back presentations on PowerShell and the Virtualization EcoShell for the Wisconsin VMWare Users Group. Time flew by and I didn’t get to the second half of my slide deck, so if you are interested, here it is.
+If you want to see the webcast, you can find it here. Just a word of warning, I haven’t listened to it yet, but we were recording over Skype and a fixed microphone while speaking over another mic in a larger room.</description>
+    </item>
+    
+    <item>
+      <title>Turn Your Stored Procedures Into PowerShell Functions - MetaProgramming With PowerShell</title>
+      <link>https://stevenmurawski.com/2009/04/01/turn-your-stored-procedures-into-powershell-functions-metaprogramming-with-powershell/</link>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/04/01/turn-your-stored-procedures-into-powershell-functions-metaprogramming-with-powershell/</guid>
+      <description>UPDATE: The script was moved to Google Code. The links in the post have been updated to reflect that. Or you can just go here&amp;hellip; http://code.google.com/p/poshcodegen/ I’ve been working on some data conversion at work, converting records from one system to a new system. I’ve built quite a library of SQL queries with PowerShell wrappers for dealing with data in the first system, but I don’t have the same luxury with the new system.</description>
+    </item>
+    
+    <item>
+      <title>Busy Week Ahead!</title>
+      <link>https://stevenmurawski.com/2009/03/01/busy-week-ahead/</link>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/03/01/busy-week-ahead/</guid>
+      <description>Monday, I’ll be delivering an Introduction to PowerShell presentation at Brainstorm (a conference for IT Pro’s supporting K-12 schools).&amp;#160;
+On Tuesday, I’ll be delivering a presentation to the local .NET Users Group focused more towards developing with PowerShell.&amp;#160;
+I’ll also have this week’s Exploring the .NET Framework post on static methods.</description>
+    </item>
+    
+    <item>
+      <title>Coming To A WSUS Server Near You –&gt; PowerShell V1.0</title>
+      <link>https://stevenmurawski.com/2009/03/01/coming-to-a-wsus-server-near-you-powershell-v10/</link>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/03/01/coming-to-a-wsus-server-near-you-powershell-v10/</guid>
+      <description>Richard Siddaway has just posted that PowerShell 1.0 is available as an optional update.
+I just checked my WSUS Server and there it is!!! Deployment is now a snap.
+More details in his blog post.. or in the MS Knowledge Base.</description>
+    </item>
+    
+    <item>
+      <title>Effective PowerShell E-Book (Free)</title>
+      <link>https://stevenmurawski.com/2009/03/01/effective-powershell-e-book-free/</link>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/03/01/effective-powershell-e-book-free/</guid>
+      <description>Keith Hill has just released his Effective PowerShell blog series as a free e-book.
+He did note that this will be an ongoing project and he expects to keep updating it.&amp;#160; Get it now and keep watching for updates!</description>
+    </item>
+    
+    <item>
+      <title>Exploring the .NET Framework with PowerShell – Static Members (Part 4)</title>
+      <link>https://stevenmurawski.com/2009/03/01/exploring-the-net-framework-with-powershell-static-members-part-4/</link>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/03/01/exploring-the-net-framework-with-powershell-static-members-part-4/</guid>
+      <description>In our Exploring the .NET Framework series, we’ve covered some terminology, creating instances of objects and calling methods. In today’s installment, we are going to look at using static members - methods and properties. Static methods are methods that a class (or type) make available without needing to create an instance of the class. Similarly, static properties are properties that you can access without needing an instance of the class.</description>
+    </item>
+    
+    <item>
+      <title>Talking PowerShell on The Thirsty Developer</title>
+      <link>https://stevenmurawski.com/2009/03/01/talking-powershell-on-the-thirsty-developer/</link>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/03/01/talking-powershell-on-the-thirsty-developer/</guid>
+      <description>I recently had the opportunity to talk a bit about PowerShell with Larry Clarkin of The Thirsty Developer podcast.&amp;#160; I had a great time talking with Larry and the time went very quickly (there is so much more I wanted to say, but we ran out of time).
+The Thirsty Developer is a great podcast featuring Larry Clarkin and Dave Bost, two Microsoft Evangelists in my area.&amp;#160; They cover a number of development related topics and have touched on PowerShell in an earlier show (#43).</description>
+    </item>
+    
+    <item>
+      <title>Tip: Free Up Some Memory</title>
+      <link>https://stevenmurawski.com/2009/03/01/tip-free-up-some-memory/</link>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/03/01/tip-free-up-some-memory/</guid>
+      <description>I’m often running too many applications on my workstation, and at least one session of&amp;#160; PowerShell is almost always open.&amp;#160; I’m regularly jumping back to a PowerShell prompt to try something out, query something from my database, or complete a task.&amp;#160;
+If I don’t clear out the variables that reference objects I’m done with, the amount of memory used by my PowerShell session increases dramatically, which impacts some other applications that I run.</description>
+    </item>
+    
+    <item>
+      <title>“Diff”ing Database Table Columns</title>
+      <link>https://stevenmurawski.com/2009/03/01/diffing-database-table-columns/</link>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/03/01/diffing-database-table-columns/</guid>
+      <description>Previously, I published a script on comparing what tables two databases contained.&amp;#160; Going a bit further, I put together a script that compares the columns and what type of data they store.
+Compare-DatabaseColumns has similar parameters to the Compare-DatabaseSchema script.
+ Table – One or more tables to compare columns from SqlServerOne – SQL Server for the first database FirstDatabase – Name of the first database for the comparison SqlUsernameOne – SQL user name for the first database SqlPasswordOne – SQL password for the first database SqlServerTwo – SQL Server for the second database SecondDatabase – Name of the second database for comparison SqlUsernameTwo – SQL user name for the second database SqlPasswordTwo – SQL password for the second database FilePrefix – Prefix for the log file name Log – Switch parameter that saves one CSV file with the difference in the tables.</description>
+    </item>
+    
+    <item>
+      <title>Cahoots! Rocks</title>
+      <link>https://stevenmurawski.com/2009/02/01/cahoots-rocks/</link>
+      <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/02/01/cahoots-rocks/</guid>
+      <description>Cahoots! is an open source project that provides a Question and Answer forum that is driven by community participation.&amp;#160; It also includes blogging, podcasting, and a knowledgebase functionality.&amp;#160;
+Logins are managed via OpenID, so you don’t have to worry about managing additional login credentials.
+Your capabilities to create content are driven by “esteem”, which is a metric for tracking the response to content you provide.&amp;#160; You can gain “esteem” by asking asking questions, posting blog entries, and having people follow your activities on the site.</description>
+    </item>
+    
+    <item>
+      <title>Exploring the .NET Framework with PowerShell – Calling a Method (Part 2b)</title>
+      <link>https://stevenmurawski.com/2009/02/01/exploring-the-net-framework-with-powershell-calling-a-method-part-2b/</link>
+      <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/02/01/exploring-the-net-framework-with-powershell-calling-a-method-part-2b/</guid>
+      <description>Continuing from where I left off last week, we were created an instance of the System.Net.NetworkInformation.Ping class and looked at the different ways (overloads) that we can call the Send method.&amp;#160; Now that we’ve seen how we can create Ping objects, let’s take advantage of options for creating some custom ping packets and examine the return object.
+PS C:&amp;amp;gt; $encoder = new-object System.Text.ASCIIEncoding
+PS C:&amp;amp;gt; $bytes = $encoder.Getbytes(&amp;lsquo;Hello From Steve&amp;rsquo;)</description>
+    </item>
+    
+    <item>
+      <title>PowerShell Virtual User Group #9 Details</title>
+      <link>https://stevenmurawski.com/2009/02/01/powershell-virtual-user-group-09-details/</link>
+      <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/02/01/powershell-virtual-user-group-09-details/</guid>
+      <description>Marco Shaw just posted the details about the next Virtual User Group meeting.
+Topics include:
+  Speaker topics: *Doug Finke: Data visualization in PowerShell (http://www.dougfinke.com/blog). *Chris Miller: SQL Server PowerShell Extensions (http://www.codeplex.com/SQLPSX). *James Brundage: Using WPF from PowerShell (http://blogs.msdn.com/powershell).
+The Virtual User Group meeting is this Wednesday at 8:00 PM EST.&amp;#160; You can register here.&amp;#160; See you there!</description>
+    </item>
+    
+  </channel>
+</rss>

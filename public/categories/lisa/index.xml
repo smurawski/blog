@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lisa on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</title>
+    <link>https://stevenmurawski.com/categories/lisa/</link>
+    <description>Recent content in Lisa on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Nov 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stevenmurawski.com/categories/lisa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LISA 2012–Now with more PowerShell</title>
+      <link>https://stevenmurawski.com/2012/11/01/lisa-2012now-with-more-powershell/</link>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2012/11/01/lisa-2012now-with-more-powershell/</guid>
+      <description>The 2012 LISA (Large Installation System Administration) Conference is coming up (December 9-14).
+If you aren’t familiar with LISA, it is a conference focusing on systems administration topics with a rich history (this is the 26th one).&amp;#160; There are 47 different full or half-day classes to choose from, as well as three days of additional technical sessions across three main themes – Cloud Computing, Super Sysadmin, and IPv6 and DNSSEC.</description>
+    </item>
+    
+    <item>
+      <title>Still Time For Early Bird Registration For LISA 2012</title>
+      <link>https://stevenmurawski.com/2012/11/01/still-time-for-early-bird-registration-for-lisa-2012/</link>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2012/11/01/still-time-for-early-bird-registration-for-lisa-2012/</guid>
+      <description>SAVE THE DATE
+LISA &amp;lsquo;12: 26th Large Installation System Administration Conference
+December 9-14, 2012, San Diego, CA
+https://www.usenix.org/lisa12
+Early Bird Registration Deadline: November 19, 2012
+Sponsored by USENIX in cooperation with LOPSA
+LISA is coming to San Diego, CA, December 9-14, 2012. As always, the breadth and quality of this year&amp;rsquo;s tutorials, paper presentations, invited talks, and participants are excellent. Learn more at https://www.usenix.org/lisa12.
+New for 2012 are themes, which allow you to follow a specific topic through tutorials, workshops, technical sessions, and the refereed papers track.</description>
+    </item>
+    
+  </channel>
+</rss>

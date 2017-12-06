@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/smurawski
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://stevenmurawski.com
+  * I am smurawski (https://keybase.io/smurawski) on keybase.
+  * I have a public key ASBvHpUu5DI8y01ZtGMiXaIjSDGzfJhx_06japln2BYKTQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01206f1e952ee4323ccb4d59b463225da2234831b37c9871ff4ea36a9967d8160a4d0a",
+            "host": "keybase.io",
+            "kid": "01206f1e952ee4323ccb4d59b463225da2234831b37c9871ff4ea36a9967d8160a4d0a",
+            "uid": "0057c5855d5b60dae412a4a607fd6819",
+            "username": "smurawski"
+        },
+        "service": {
+            "hostname": "stevenmurawski.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.20"
+    },
+    "ctime": 1491268742,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1491268697,
+        "hash": "82a2e45be2d347eebb0e154a5ecfe314004fec141bf5fb756a2d9314092c91cead30c12683cbca7b800079c80a4573847cca125b05b5915ff631c1556925a9b0",
+        "seqno": 997226
+    },
+    "prev": "2c2847a41791250dca5202db693e92d0354f8abf82b4b087b2420fbf17da73f7",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgbx6VLuQyPMtNWbRjIl2iI0gxs3yYcf9Oo2qZZ9gWCk0Kp3BheWxvYWTFAvt7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNmYxZTk1MmVlNDMyM2NjYjRkNTliNDYzMjI1ZGEyMjM0ODMxYjM3Yzk4NzFmZjRlYTM2YTk5NjdkODE2MGE0ZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNmYxZTk1MmVlNDMyM2NjYjRkNTliNDYzMjI1ZGEyMjM0ODMxYjM3Yzk4NzFmZjRlYTM2YTk5NjdkODE2MGE0ZDBhIiwidWlkIjoiMDA1N2M1ODU1ZDViNjBkYWU0MTJhNGE2MDdmZDY4MTkiLCJ1c2VybmFtZSI6InNtdXJhd3NraSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoic3RldmVubXVyYXdza2kuY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjAifSwiY3RpbWUiOjE0OTEyNjg3NDIsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ5MTI2ODY5NywiaGFzaCI6IjgyYTJlNDViZTJkMzQ3ZWViYjBlMTU0YTVlY2ZlMzE0MDA0ZmVjMTQxYmY1ZmI3NTZhMmQ5MzE0MDkyYzkxY2VhZDMwYzEyNjgzY2JjYTdiODAwMDc5YzgwYTQ1NzM4NDdjY2ExMjViMDViNTkxNWZmNjMxYzE1NTY5MjVhOWIwIiwic2Vxbm8iOjk5NzIyNn0sInByZXYiOiIyYzI4NDdhNDE3OTEyNTBkY2E1MjAyZGI2OTNlOTJkMDM1NGY4YWJmODJiNGIwODdiMjQyMGZiZjE3ZGE3M2Y3Iiwic2Vxbm8iOjgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA57ndc9ZqIZtsPzEftl8Hn5Lna/LHg6KtQfkA38O6wZI0f9oQ0SU2woxHeIby9+IMrWEx7vFDsahgk6jOTOfEAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIC0+XhJZyuIqxcRxOyOhjyR5IxFoM83RXGLAB09F3YPSo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/smurawski
+
+==================================================================

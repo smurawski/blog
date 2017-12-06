@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Picc on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</title>
+    <link>https://stevenmurawski.com/categories/picc/</link>
+    <description>Recent content in Picc on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 May 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stevenmurawski.com/categories/picc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PowerShell at PICC</title>
+      <link>https://stevenmurawski.com/2012/05/01/powershell-at-picc/</link>
+      <pubDate>Tue, 01 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2012/05/01/powershell-at-picc/</guid>
+      <description>I had a great time with my classes at PICC.&amp;#160; Both the PowerShell Fundamentals class and the PowerShell Tips and Tricks class were a lot of fun and resulted in great conversations at the breaks and after the classes.
+The fun continued in the evening with the Bird of a Feather sessions where we spent some time talking about Server 2012, Server Core, and remote server management.&amp;#160; What a great time.</description>
+    </item>
+    
+    <item>
+      <title>Want to PICC up some new skills?</title>
+      <link>https://stevenmurawski.com/2012/04/01/want-to-picc-up-some-new-skills/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2012/04/01/want-to-picc-up-some-new-skills/</guid>
+      <description>If you are out on the East Coast and want to pick up some new skills or freshen up some old ones, check out PICC – the Professional IT Community Conference.
+PICC is hosted in New Brunswick, New Jersey and is two days of great SysAdmin content (May 11&amp;frasl;12).
+You’ll find half day training sessions on things like:  PowerShell (by your truly) Puppet Time Management Technical Resume Writing IPv6 Workplace Presentations and more…  There are also conference sessions on topics like:  Ganeti (Virtualization Management Platform) Windows Deployment with MDT 2010 Scaling the StackExchange Platform Configuration Management Securing MySQL Deep Application Monitoring and more…  I’ll be there, and I’m definitely going to walk away better prepared to do my job.</description>
+    </item>
+    
+  </channel>
+</rss>

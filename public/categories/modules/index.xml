@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modules on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</title>
+    <link>https://stevenmurawski.com/categories/modules/</link>
+    <description>Recent content in Modules on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Aug 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stevenmurawski.com/categories/modules/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Announcing CommandAssist</title>
+      <link>https://stevenmurawski.com/2011/08/01/announcing-commandassist/</link>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2011/08/01/announcing-commandassist/</guid>
+      <description>CommandAssist is a new module designed to provide some graphical help for people who are new to PowerShell or just not as comfortable on the command line.&amp;#160; CommandAssist relies on ShowUI, so go get it now!
+What’s There Now The first three functions in this module are:
+ Show-ParameterAssist New-AssistedModule Where-Object (with an updated –Assist parameter)  Show-ParameterAssist is the workhorse behind the coolest feature in this module.&amp;#160; Parameter assist takes a command (either a CommandInfo from Get-Command, or a command name and what type of command) and optionally a hashtable of parameters and values.</description>
+    </item>
+    
+    <item>
+      <title>Creating an Assisted Module with CommandAssist</title>
+      <link>https://stevenmurawski.com/2011/08/01/creating-an-assisted-module-with-commandassist/</link>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2011/08/01/creating-an-assisted-module-with-commandassist/</guid>
+      <description>The CommandAssist module allows you to easily create proxies functions for every command in a module (or snapin).&amp;#160;&amp;#160;
+There is a handy command to generate these proxy modules included with the CommandAssist module.&amp;#160;
+
+Building an Assisted Module The easiest way to explain what happens is to walk through the usage of New-AssistedModule.&amp;#160; To that end, we&amp;rsquo;ll create a proxy of a module that I&amp;rsquo;ve been use regularly - the ActiveDirectory module.</description>
+    </item>
+    
+    <item>
+      <title>Using -Assist in an Assisted Module - CommandAssist</title>
+      <link>https://stevenmurawski.com/2011/08/01/using-assist-in-an-assisted-module-commandassist/</link>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2011/08/01/using-assist-in-an-assisted-module-commandassist/</guid>
+      <description>This is the the meat of CommandAssist module, providing a contextual assistant to supplying the right parameters to a command.
+Getting to the Meat of It In the last post, we created a proxy module for ActiveDirectory module, so what does that really get for us?
+Starting off in a new shell, I&amp;rsquo;ve imported the AssistedAD module and I&amp;rsquo;m going to try out the -Assist parameter for Get-ADUser
+Import-Module ADAssistGet-ADUser -Assist</description>
+    </item>
+    
+    <item>
+      <title>Using CommandAssist - Assisted Where-Object</title>
+      <link>https://stevenmurawski.com/2011/08/01/using-commandassist-assisted-where-object/</link>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2011/08/01/using-commandassist-assisted-where-object/</guid>
+      <description>To use CommandAssist, the first step you will need to take is to have ShowUI (at least 1.1) installed and run PowerShell in STA mode.
+Then, you can import CommandAssist.&amp;#160; After importing CommandAssist, you can take advantage of the scriptblock builder built in to Where-Object
+Get-ChildItem | Where-Object -assist
+When you hit enter, you will see a screen like the below.
+
+At the top of the screen is a count of the number of objects coming into Where-Object.</description>
+    </item>
+    
+    <item>
+      <title>Waiter, There&#39;s a Bug in My Get-Help!</title>
+      <link>https://stevenmurawski.com/2011/08/01/waiter-theres-a-bug-in-my-get-help/</link>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2011/08/01/waiter-theres-a-bug-in-my-get-help/</guid>
+      <description>My friend Robert Robelo was kind enough to point out a problem with the proxies created by the CommandAssist module.
+In trying to research the problem, I found that PowerShell crashed ( yes, crashed.. not throwing an error, but CRASHED) when Get-Help could not resolve the command it needed to provide help for.
+Setting the Stage Reproducing the Problem Create a module that exports a function
+$Path = &#39;c:\users\smurawski\documents\windowspowershell\TestModule.psm1&#39; $null = new-item $Path -ItemType File -Force -Value @&#39; function Test-One { [CmdletBinding()] param($x) $x } Export-ModuleMember -Function Test-One &#39;@  Import the module</description>
+    </item>
+    
+    <item>
+      <title>Connect to External Domain with the Active Directory Provider</title>
+      <link>https://stevenmurawski.com/2011/03/01/connect-to-external-domain-with-the-active-directory-provider/</link>
+      <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2011/03/01/connect-to-external-domain-with-the-active-directory-provider/</guid>
+      <description>When you import the Active Directory module (either on Server 2008 R2 or Windows 7 with the RSAT), a provider is added to your environment and connects to your current domain.
+You can also use the provider to connect to other servers and other domains, as well as connect with alternate credentials (which is very useful as I’ve decided to live as a regular user and elevate to a domain admin account when needed).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Dive on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</title>
+    <link>https://stevenmurawski.com/categories/deep-dive/</link>
+    <description>Recent content in Deep Dive on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jul 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stevenmurawski.com/categories/deep-dive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deep Dive: Error Handling – Error Types (part 1)</title>
+      <link>https://stevenmurawski.com/2009/07/01/deep-dive-error-handling-error-types-part-1/</link>
+      <pubDate>Wed, 01 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/07/01/deep-dive-error-handling-error-types-part-1/</guid>
+      <description>I started looking a little deeper at error handling in PowerShell after this StackOverflow question. PowerShell has two kinds of errors – terminating errors and non-terminating errors.
+Terminating errors are the errors that can stop command execution cold. Non-terminating errors provided an additional challenge, as you need to be notified of failed operations and continue with pipeline operations. To deal with this issue and to provide additional output options, PowerShell employs the concept of streams.</description>
+    </item>
+    
+  </channel>
+</rss>

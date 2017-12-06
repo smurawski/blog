@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cascadia2012 on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</title>
+    <link>https://stevenmurawski.com/categories/cascadia2012/</link>
+    <description>Recent content in Cascadia2012 on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Mar 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stevenmurawski.com/categories/cascadia2012/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cascadia Community Conference - 2012</title>
+      <link>https://stevenmurawski.com/2012/03/01/cascadia-community-conference-2012/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2012/03/01/cascadia-community-conference-2012/</guid>
+      <description>I had a great time at the Cascadia conference this past weekend.&amp;#160; I missed Friday, but got to spend all day Saturday teaching PowerShell to a great group of attendees.&amp;#160; There were some great questions and interesting thoughts developed in both the Fundamentals class and the Tips and Tricks class.
+I want to thank the organizers of the conference for having me out and especially to the attendees for my classes, most of whom spent all day with me.</description>
+    </item>
+    
+  </channel>
+</rss>

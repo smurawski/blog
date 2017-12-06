@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>One Liner on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</title>
+    <link>https://stevenmurawski.com/categories/one-liner/</link>
+    <description>Recent content in One Liner on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Feb 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stevenmurawski.com/categories/one-liner/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Finding the K Most Common Words in a File</title>
+      <link>https://stevenmurawski.com/2009/02/01/finding-the-k-most-common-words-in-a-file/</link>
+      <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/02/01/finding-the-k-most-common-words-in-a-file/</guid>
+      <description>Doug Finke recently posted a blog post about finding the most common words in a file.
+Doug put together a little 19 line PowerShell script to solve the issue, but something just called to me about how it wasn’t necessarily playing to some of the included cmdlets in PowerShell.
+So, here’s my interpretation as a one liner:
+get-content big.txt | foreach-object {[regex]::split($.ToLower(), &amp;lsquo;\W+&amp;lsquo;)} | where-object {$.length -gt 0} | group-object | sort-object -property count -descending | select-object -property name -first 6</description>
+    </item>
+    
+  </channel>
+</rss>

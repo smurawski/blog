@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Virtualization on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</title>
+    <link>https://stevenmurawski.com/categories/virtualization/</link>
+    <description>Recent content in Virtualization on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stevenmurawski.com/categories/virtualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WI VMUG Presentation with Scott Herold</title>
+      <link>https://stevenmurawski.com/2009/05/01/wi-vmug-presentation-with-scott-herold/</link>
+      <pubDate>Fri, 01 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/05/01/wi-vmug-presentation-with-scott-herold/</guid>
+      <description>This morning, Scott Herold and I did back to back presentations on PowerShell and the Virtualization EcoShell for the Wisconsin VMWare Users Group. Time flew by and I didn’t get to the second half of my slide deck, so if you are interested, here it is.
+If you want to see the webcast, you can find it here. Just a word of warning, I haven’t listened to it yet, but we were recording over Skype and a fixed microphone while speaking over another mic in a larger room.</description>
+    </item>
+    
+    <item>
+      <title>PowerShell, VMWare, and VESI in Wisconsin</title>
+      <link>https://stevenmurawski.com/2009/04/01/powershell-vmware-and-vesi-in-wisconsin/</link>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2009/04/01/powershell-vmware-and-vesi-in-wisconsin/</guid>
+      <description>On May 19th, Scott Herold and I will be presenting for the Wisconsin VMWare Users Group. I&amp;rsquo;ll be covering the basics of PowerShell, as well as an introduction to the VI Toolkit (for Windows)/PowerCLI.
+Scott will be talking about the Virtualization EcoShell Initiative (VESI).
+If you are in Wisconsin, the meeting details can be found here.
+If you are not able to make the meeting, VMWare will be providing a live stream of our presentations via WebEx, as well as providing recordings after the fact.</description>
+    </item>
+    
+  </channel>
+</rss>

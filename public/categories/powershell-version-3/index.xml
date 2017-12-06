@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Powershell Version 3 on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</title>
+    <link>https://stevenmurawski.com/categories/powershell-version-3/</link>
+    <description>Recent content in Powershell Version 3 on A Sysadmin, An SRE, and a DevOps Walk Into a Bar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 May 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stevenmurawski.com/categories/powershell-version-3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RunAs Radio and PowerShell V3</title>
+      <link>https://stevenmurawski.com/2012/05/01/runas-radio-and-powershell-v3/</link>
+      <pubDate>Tue, 01 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2012/05/01/runas-radio-and-powershell-v3/</guid>
+      <description>I joined Richard Campbell, the host of Runas Radio to talk about PowerShell V3 and Server 2012.&amp;#160; We had a great conversation and covered some of the improvements and new features in PowerShell V3 and the new cmdlets and support in Server 2012.
+What’s RunAs Radio? RunAs Radio is a weekly internet audio talk show for IT professionals focused on Microsoft products.&amp;#160; They cover a full range of topics from a Microsoft-centric view point.</description>
+    </item>
+    
+    <item>
+      <title>PowerShell V3 – Auto-loading of Modules</title>
+      <link>https://stevenmurawski.com/2012/01/01/powershell-v3-auto-loading-of-modules/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2012/01/01/powershell-v3-auto-loading-of-modules/</guid>
+      <description>PowerShell V3 includes a new “feature” – Auto-loading of modules.
+What Does It Do? Module discovery has been updated to make the exported commands for modules that are not loaded visible in a PowerShell session.
+In Version 2, if you run Get-Module on a module that is not loaded but in your PSModulePath, you’ll get some metadata about the module, but nothing about the ExportedFunctions, ExportedCmdlets, ExportedAliases, or ExportedVariables.&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>PowerShell V3 – Default Parameter Values</title>
+      <link>https://stevenmurawski.com/2012/01/01/powershell-v3-default-parameter-values/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2012/01/01/powershell-v3-default-parameter-values/</guid>
+      <description>PowerShell Version 3 introduces the concept of Default Parameter Values.
+This allows you to specify a value for one or more parameters for one or more commands.
+To implement this, you need to populate a new hashtable – $PSDefaultParameterValues
+That Description is Not Helpful Let’s look at some examples -
+First off, we can specify the value for a parameter for a specific command.&amp;#160; The pattern used for the hashtable entries is “NameOfCommand:NameOfParameter” = “ValueOfParameter”.</description>
+    </item>
+    
+    <item>
+      <title>When Import-Module Does Not</title>
+      <link>https://stevenmurawski.com/2012/01/01/when-import-module-does-not/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://stevenmurawski.com/2012/01/01/when-import-module-does-not/</guid>
+      <description>A question came up about the behavior of what’s that?).
+So What’s the Question? Does the auto-loading of modules in PowerShell Version 3 use Import-Module behind the scenes?&amp;#160; If it does, can we use default parameter sets to control what types of things are imported?
+What Actually Happens? So, it turns out that default parameter set (new feature) can be used to customize the import of new modules.
+$PSDefaultParameterValues = @{ &amp;quot;Import-Module:Alias&amp;quot;=@() &amp;quot;Import-Module:Function&amp;quot;=&amp;rsquo;&amp;lsquo; &amp;quot;Import-Module:Cmdlet&amp;quot;=&amp;rsquo;&amp;lsquo; &amp;quot;Import-Module:Variable&amp;quot;=&amp;rsquo;*&amp;rsquo; } Get-Module Get-BitsTransfer Get-Module</description>
+    </item>
+    
+  </channel>
+</rss>
