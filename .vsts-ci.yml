@@ -1,7 +1,7 @@
 steps:
   - powershell: ./build.ps1
   -
-    task: ArchiveFiles@2
+    task: ArchiveFiles@1
     displayName: Create Staging Zip
     rootFolder: ./public/staging
     includeRootFolder: false
@@ -9,7 +9,7 @@ steps:
     archiveFile: $(Build.ArtifactStagingDirectory)/staging.zip
     replaceExistingArchive: true
   -
-    task: ArchiveFiles@2
+    task: ArchiveFiles@1
     displayName: Create Production Zip
     rootFolder: ./public/prod
     includeRootFolder: false

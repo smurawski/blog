@@ -119,15 +119,15 @@ invoke-restmethod https://raw.githubusercontent.com/smurawski/vsts_rust_build/ma
 invoke-restmethod https://raw.githubusercontent.com/smurawski/vsts_rust_build/master/build_definitions/vsts_rust_hello_world-linux-CI.json -outfile vsts_rust_hello_world-linux-CI.json 
 ```
 
-![Windows Build Definition]({{site.baseurl}}/talks/DevOps-Images/2017-10-19_17_52_49-vsts_rust_hello_world-windows-CI‎.png)
+![Windows Build Definition]({{$.Site.BaseURL}}/talks/DevOps-Images/2017-10-19_17_52_49-vsts_rust_hello_world-windows-CI‎.png)
 
 On that page, I'll select import and upload `vsts_rust_hello_world-windows-CI.json`.  We'll have to update the `Get sources` step to pull from our repository ([about repositories](http://cda.ms/2R)).
 
-![Windows Get Sources]({{site.baseurl}}/talks/DevOps-Images/2017-10-19_17_54_10-vsts_rust_hello_world-windows-CI‎.png)
+![Windows Get Sources]({{$.Site.BaseURL}}/talks/DevOps-Images/2017-10-19_17_54_10-vsts_rust_hello_world-windows-CI‎.png)
 
 [We'll also need to update the build trigger](http://cda.ms/2S).  When building from GitHub, I normally trigger builds on changes to master.
 
-![Windows Build Trigger]({{site.baseurl}}/talks/DevOps-Images/2017-10-19_18_07_03-vsts_rust_hello_world-windows-CI‎.png)
+![Windows Build Trigger]({{$.Site.BaseURL}}/talks/DevOps-Images/2017-10-19_18_07_03-vsts_rust_hello_world-windows-CI‎.png)
 
 After we've updated these things, we can save the build definition.
 
@@ -137,11 +137,11 @@ After we've updated these things, we can save the build definition.
 
 Next, we can import the linux build definition.  Back on the "Builds" page, we can import `vsts_rust_hello_world-linux-CI.json`.
 
-![Linux Build Definition]({{site.baseurl}}/talks/DevOps-Images/2017-10-19_17_55_55-vsts_rust_hello_world-linux-CI‎.png)
+![Linux Build Definition]({{$.Site.BaseURL}}/talks/DevOps-Images/2017-10-19_17_55_55-vsts_rust_hello_world-linux-CI‎.png)
 
 We'll have to fix the `Get sources` for this build as we did in the Windows build.
 
-![Linux Get Sources]({{site.baseurl}}/talks/DevOps-Images/2017-10-19_17_56_03-vsts_rust_hello_world-linux-CI‎.png)
+![Linux Get Sources]({{$.Site.BaseURL}}/talks/DevOps-Images/2017-10-19_17_56_03-vsts_rust_hello_world-linux-CI‎.png)
 
 After we save this build definition, we'll need to get the "Build Definition ID".  I couldn't figure out how to trigger multiple builds using different build queues directly in VSTS (maybe someone more knowledgeable than I can help out..), so we have a step in the Windows build to use the REST API to kick off the Linux build after the Windows build.  This step requires us to supply the "Build Definition ID" for the Linux build to the Windows build.
 
@@ -149,7 +149,7 @@ You can find the "Build Definition ID" in the URL for the build definition after
 
 Once we've got the ID number, we can edit our Windows build definition and update the `LINUXBUILD_DEFINITIONID` variable in the "Variables" tab of the edit Build screen.
 
-![Linux Build ID]({{site.baseurl}}/talks/DevOps-Images/2017-10-19_17_54_30-vsts_rust_hello_world-windows-CI‎.png)
+![Linux Build ID]({{$.Site.BaseURL}}/talks/DevOps-Images/2017-10-19_17_54_30-vsts_rust_hello_world-windows-CI‎.png)
 
 ### Starting The Build
 
