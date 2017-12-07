@@ -25,7 +25,7 @@ If you aren't experiencing any pain with SCCM and you're in touch with your busi
 One of the major reasons folks in Microsoft heavy environments start talking about DSC is this desire to build a more "devopsy" workflow.  They keep hearing about how all these other shops are getting faster and faster with their production deployment.  They see talks from [DevOps Enterprise Summit - DOES](https://www.youtube.com/playlist?list=PLGnigCNRJjp5zA02HfuXcr_847VogTYF-) and wonder why it takes them six weeks or more to get a new test environment while their competion is finishing whole projects in that time frame.
 
 *Note:*
-If you really want to understand some of the overall business drivers in a technology agnostic way, I'd go read [Leading the Transformation](http://www.amazon.com/Leading-Transformation-Applying-DevOps-Principles-ebook/dp/B012P0D4YG) (and check out the other books on my [DevOps Reading List](http://stevenmurawski.com/devops-reading-list/)).
+If you really want to understand some of the overall business drivers in a technology agnostic way, I'd go read [Leading the Transformation](http://www.amazon.com/Leading-Transformation-Applying-DevOps-Principles-ebook/dp/B012P0D4YG) (and check out the other books on my [DevOps Reading List]({{< relref "devops-reading-list.md" >}})).
 
 **If you want your business to care about IT, IT needs to care about the business.**  This is the heart of DevOps.  It's about eliminating business pain and generating business outcomes.
 

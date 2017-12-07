@@ -44,6 +44,6 @@ I love Scott Adams (author of Dilbert).  He has a very interesting way of thinki
 
 I'm not the best at any of it, but when you combine all these things - it screams opportunity.  And I'm living it.
 
-You can too.  Lots of good stuff out there, check out my [reading list](http://stevenmurawski.com/devops-reading-list) for some great ideas on where to start.
+You can too.  Lots of good stuff out there, check out my [reading list]({{< relref "devops-reading-list.md" >}}) for some great ideas on where to start.
 
 _What are you learning today that'll help increase your chances for luck to find you?_

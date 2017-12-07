@@ -10,7 +10,7 @@ title: Getting Started With Test-Kitchen and DSC
 
 ## The Short Version
 
-* [Install ChefDK](http://stevenmurawski.com/powershell/2015/06/want-the-latest-chefdk-on-windows/)
+* [Install ChefDK]({{< relref "want-the-latest-chefdk-on-windows.md" >}})
 * From a new PowerShell window
 
 `chef gem install kitchen-dsc kitchen-pester kitchen-hyperv`

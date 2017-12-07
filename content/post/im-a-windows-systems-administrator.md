@@ -31,7 +31,7 @@ This becomes a self fulfilling prophecy, as I've heard other systems administrat
 
 
 
-It doesn't have to be that way.&nbsp; Ignorance is not an excuse for us to [ditch our professionalism ](http://stevenmurawski.com/powershell/2014/1/are-sysadmins-professionals)or abdicate our responsibility to learn and grow our skills.
+It doesn't have to be that way.&nbsp; Ignorance is not an excuse for us to [ditch our professionalism ]({{< relref "are-sysadmins-professionals.md" >}})or abdicate our responsibility to learn and grow our skills.
 
 
 Yes, the pace of change is rapid and we can't learn everything in our space, but we can keep growing our skills, diving deeper in areas where we are strong and broadening the reach of our experience. How can our environments move to newer platforms and leverage better patterns, if we don't learn how to take advantage of them?

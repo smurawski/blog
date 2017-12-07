@@ -8,7 +8,7 @@ title: More About Fewer Comments
 
 ---
 
-[My last post about comments](http://stevenmurawski.com/powershell/2014/2/just-stop-with-the-comments-already) generated a bit of conversation on Twitter, which highlighted my failure to communicate a few points.
+[My last post about comments]({{< relref "just-stop-with-the-comments-already.md" >}}) generated a bit of conversation on Twitter, which highlighted my failure to communicate a few points.
 
 
 My dislike for comments is predicated on two main concerns. &nbsp;
@@ -226,7 +226,7 @@ Sunny ([@sunnyc7](https://twitter.com/sunnyc7)) catches my drift. &nbsp;The code
 
 
 
-I still think comments indicate a "code smell". &nbsp;In striving for cleaner code, we should seek to minimize the need for comments by writing clearer, more readable code. &nbsp; I want to thank everyone who cared enough to share their thoughts on Twitter and [via comments to the previous blog post.](http://stevenmurawski.com/powershell/2014/2/just-stop-with-the-comments-already)
+I still think comments indicate a "code smell". &nbsp;In striving for cleaner code, we should seek to minimize the need for comments by writing clearer, more readable code. &nbsp; I want to thank everyone who cared enough to share their thoughts on Twitter and [via comments to the previous blog post.]({{< relref "just-stop-with-the-comments-already.md" >}})
 
 
 <br>

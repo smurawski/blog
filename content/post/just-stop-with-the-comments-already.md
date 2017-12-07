@@ -88,7 +88,7 @@ The proper use of comments is to compensate for our failure to express ourself i
 
 
 
-If you've read&nbsp;[my post on keeping your functions short and to the point](https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;ved=0CCYQFjAA&amp;url=http%3A%2F%2Fstevenmurawski.com%2Fpowershell%2F2014%2F1%2Fkeep-it-short&amp;ei=qzn-UuuAFYmGhQechoCwDg&amp;usg=AFQjCNHH4SEuYHJ716v5FR1tClQsJHlH4A&amp;bvm=bv.61190604,d.ZG4), then you should already be minimizing the the number of lines of code you have to comprehend to identify what a function does. &nbsp;More importantly, if the function is named properly, the name should tell you what is going to happen. &nbsp;Also, your variable names and the functions you call should have appropriate names as well, letting the code become self documenting.
+If you've read&nbsp;[my post on keeping your functions short and to the point]({{< relref "keep-it-short.md" >}}), then you should already be minimizing the the number of lines of code you have to comprehend to identify what a function does. &nbsp;More importantly, if the function is named properly, the name should tell you what is going to happen. &nbsp;Also, your variable names and the functions you call should have appropriate names as well, letting the code become self documenting.
 
 
 ## Comments Don't Age Well

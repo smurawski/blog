@@ -8,7 +8,7 @@ title: Blue Skies Ahead
 
 ---
 
-Last week [I've announced that my last day at Chef was approaching](http://stevenmurawski.com/powershell/2017/05/thank-you-chef/index.html) (in 10 more days).  I can't begin to say enough good things about my experiences at Chef.  I've been very blessed with my last series of jobs, from Edgenet to Stack Overflow to Chef.  Each role has enabled me to grow and share my learnings.
+Last week [I've announced that my last day at Chef was approaching]({{< relref "thank-you-chef.md" >}}) (in 10 more days).  I can't begin to say enough good things about my experiences at Chef.  I've been very blessed with my last series of jobs, from Edgenet to Stack Overflow to Chef.  Each role has enabled me to grow and share my learnings.
 
 Today, I can share with you what my next role will be.
 

@@ -10,7 +10,7 @@ title: Setting Up A Windows Workstation for Chef Development - The Easy Way
 
 ## The Old Way
 
-[I've got a longer post about building a cookbook to set up for Chef development.](http://stevenmurawski.com/powershell/2015/06/building-your-chef-workstation-on-windows/)  This felt kludgy and hard to maintain, so I played around a little bit.
+[I've got a longer post about building a cookbook to set up for Chef development.]({{< relref "building-your-chef-workstation-on-windows.md" >}})  This felt kludgy and hard to maintain, so I played around a little bit.
 
 ## The New Way
 

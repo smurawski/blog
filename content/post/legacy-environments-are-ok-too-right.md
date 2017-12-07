@@ -8,7 +8,7 @@ title: Legacy Environments Are OK Too, Right?
 
 ---
 
-Chris Hunt was kind enough to [offer a response to my post yesterday](http://stevenmurawski.com/powershell/2014/8/future-proofing-your-career-or-reading-tea-leaves#comment-1542438685) and voiced an opinion I've heard from many others. &nbsp;I'd like to address his comments. (And Chris, I do value your opinion, I just couldn't disagree more. :) )
+Chris Hunt was kind enough to [offer a response to my post yesterday]({{< relref "future-proofing-your-career-or-reading-tea-leaves.md" >}}index.html#comment-1542438685) and voiced an opinion I've heard from many others. &nbsp;I'd like to address his comments. (And Chris, I do value your opinion, I just couldn't disagree more. :) )
 
 
 ## Legacy Environments Will Be Around

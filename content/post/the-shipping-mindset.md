@@ -10,7 +10,7 @@ title: The Shipping Mindset
 
 ## TL;DR
 
-In traditional sysadmin work, [we tend to find that whatever is implemented sticks around for a long time](http://stevenmurawski.com/powershell/2014/01/its-just-temporary/).  This can lead to stressing about exactly how to implement a particular thing.  
+In traditional sysadmin work, [we tend to find that whatever is implemented sticks around for a long time]({{< relref "its-just-temporary.md" >}}).  This can lead to stressing about exactly how to implement a particular thing.  
 
 What I've learned working at Chef is if you focus on shipping and iterating, you can start with a less than optimal solution (but one that gets the job done), and **as long as you are committed to shipping** changing it iteratively becomes trivial.
 

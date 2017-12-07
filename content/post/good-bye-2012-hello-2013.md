@@ -14,7 +14,7 @@ title: Good Bye 2012, Hello 2013
 
 
 
-I started 2012 with a [great surprise](http://stevenmurawski.com/powershell/2012/01/starting-2012-with-a-bang) and the year continued to be one of my busiest.
+I started 2012 with a [great surprise]({{< relref "starting-2012-with-a-bang.md" >}}) and the year continued to be one of my busiest.
 
 
 

@@ -9,7 +9,7 @@ title: Building Your Chef Workstation on Windows
 ---
 
 **UPDATE**
-[2016-08-22 - I've got a shorter, faster method now.](http://stevenmurawski.com/powershell/2016/08/simplified-chef-workstation/)
+[2016-08-22 - I've got a shorter, faster method now.]({{< relref "simplified-chef-workstation.md" >}})
 
 ## So you want to Chef on Windows?
 
@@ -38,7 +38,7 @@ The last assumption is that you are running in an account with administrative pr
 
 
 
-The first thing we have to tackle is installing ChefDK. [I just blogged about how we can do that](http://stevenmurawski.com/powershell/2015/6/want-the-latest-chefdk-on-windows), so I'll wait while you check out that post and get ChefDK installed.
+The first thing we have to tackle is installing ChefDK. [I just blogged about how we can do that]({{< relref "want-the-latest-chefdk-on-windows.md" >}}), so I'll wait while you check out that post and get ChefDK installed.
 
 
 ## Step 2 - create a Chef Repo

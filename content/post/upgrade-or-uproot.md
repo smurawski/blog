@@ -57,7 +57,7 @@ IT projects should:
 
 #### But This Is Just Temporary!
 
-[I have some more thoughts on that matter in an earlier post.](http://stevenmurawski.com/powershell/2014/01/its-just-temporary/) 
+[I have some more thoughts on that matter in an earlier post.]({{< relref "its-just-temporary.md" >}}) 
 
 
 ### Time to decide 

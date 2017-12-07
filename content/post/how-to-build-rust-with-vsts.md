@@ -25,7 +25,7 @@ Thanks to a bit of prompting on Twitter, I've whipped up a **very** basic "Hello
 
 ### Setting up your Workstation for Working with Rust
 
-If you don't have a Rust development environment already, check out [my post on setting up a Windows development environment for Rust](http://stevenmurawski.com/powershell/2016/08/rustify/).
+If you don't have a Rust development environment already, check out [my post on setting up a Windows development environment for Rust]({{< relref "rustify.md" >}}).
 
 ## Getting Started
 
