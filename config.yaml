@@ -4,7 +4,7 @@ disablePathToLower: true
 languageCode: en-us
 title: A Sysadmin, An SRE, and a DevOps Walk Into a Bar
 permalinks:
-  post: /powershell/:year/:month/:title/
+  post: /:year/:month/:title/
 relativeURLs: false
 googleAnalytics: UA-36317457-1
 disqusShortname: stevenmurawski
