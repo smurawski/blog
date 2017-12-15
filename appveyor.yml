@@ -1,0 +1,10 @@
+clone_folder: c:\projects\blog
+clone_depth: 1
+skip_tags: true
+branches:
+  only:
+    - master
+
+
+build_script:
+  - ps: ./build.ps1

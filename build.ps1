@@ -1,4 +1,9 @@
-$WorkingDir = $env:AGENT_WORKFOLDER
+$WorkingDir = $PWD.ProviderPath
+
+if (test-path env:\AGENT_WORKFOLDER -ea SilentlyContinue) {
+    $WorkingDir = $env:AGENT_WORKFOLDER
+}
+
 if (-not (get-command hugo -ErrorAction SilentlyContinue)) {
     invoke-webrequest -UseBasicParsing -Uri 'https://github.com/gohugoio/hugo/releases/download/v0.26/hugo_0.26_Windows-64bit.zip' -OutFile $WorkingDir/hugo.zip
     Unblock-File $WorkingDir/hugo.zip
