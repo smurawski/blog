@@ -5,6 +5,10 @@ languageCode: en-us
 title: A Sysadmin, An SRE, and a DevOps Walk Into a Bar
 permalinks:
   post: /:year/:month/:filename/
+languageCode: "en-us"
+copyright: "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License"
+rssLimit: 20
+
 relativeURLs: false
 googleAnalytics: UA-36317457-1
 disqusShortname: stevenmurawski
@@ -19,6 +23,7 @@ params:
   shareLinkedIn: true
 author:
   name: Steven Murawski
+  email: "steven.murawski@gmail.com"
 menu:
   main:
     - name: About
