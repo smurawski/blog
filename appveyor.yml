@@ -1,9 +1,3 @@
-environment:
-  access_token:
-    secure: kdTM19O71SwMJdvAMtH5MTow+ovQ3jtqIvDwPZkeS0t7rWZGv4vHjfCi1C22tfuk
-  matrix:
-    - ruby_version: "22"
-
 clone_folder: c:\projects\blog
 clone_depth: 1
 skip_tags: true
@@ -11,61 +5,6 @@ branches:
   only:
     - master
 
-cache:
-  - C:\Ruby22\bin
-  - C:\Ruby22\lib\ruby\gems\2.2.0
-
-install:
-  - SET PATH=C:\Ruby%ruby_version%\bin;%PATH%
-  - echo %PATH%
-  - ruby --version
-  - gem install bundler --quiet --no-ri --no-rdoc || gem install bundler --quiet --no-ri --no-rdoc || gem install bundler --quiet --no-ri --no-rdoc
-  - gem --version
-  - bundler --version
 
 build_script:
-  - git config --global credential.helper store
-  - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
-  - git config --global user.email "steven.murawski@gmail.com"
-  - git config --global user.name "Steven Murawski"
-  - ps: >-
-      $d = get-date;
-      dir _posts -file |
-      where {$_.name -notmatch '^\d{4}-\d{2}'} | 
-      foreach-object {}{$NewName = "{0:0000}-{1:00}-{2:00}-$($_.name)" -f $d.year, $d.month, $d.day; git mv "_posts/$($_.name)" "_posts/$NewName";} {git commit -m "[skip ci] - updated posts";}
-
-  - bundle install || bundle install || bundle install
-  - bundle exec jekyll build
-  - ps: cp ./talks -dest ./_site/ -recurse -force
-  - cd _site
-  - 7z a -tzip c:\projects\blog\deploy.zip .\
-  - cd ..
-  - appveyor PushArtifact deploy.zip -Type WebDeployPackage
-
-on_success:
-  - git remote add upstream "https://github.com/smurawski/blog.git"
-  - git fetch upstream
-  - ps: >-
-      if ([string]::isnullorempty($env:APPVEYOR_PULL_REQUEST_NUMBER) -and (git log upstream/master..HEAD)) {
-        try {
-          git push upstream HEAD:master *>&1
-        }
-        catch {
-          $e = $_.exception
-          do {
-            $e.message
-            $e = $e.innerexception
-          } while ($e -ne $null)
-        }
-      }
-
-deploy:
-- provider: WebDeploy
-  on:
-    branch: master
-  server: https://stevenmurawski.scm.azurewebsites.net:443/msdeploy.axd?site=stevenmurawski
-  website: stevenmurawski
-  username: $stevenmurawski
-  password:
-    secure: C0VwIIJEv4bnG2/qfWJJHLJ0cBmjf4R7UGIQXPgz+uYIjZQFGPOQ3h4efs8nNZdc0fDmBbwnAG5eUi/HaRx5fw==
-  remove_files: true
+  - ps: ./build.ps1

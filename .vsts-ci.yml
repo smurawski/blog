@@ -1,0 +1,22 @@
+steps:
+  - powershell: ./build.ps1
+  -
+    task: ArchiveFiles@1
+    displayName: Create Staging Zip
+    rootFolder: ./public/staging
+    includeRootFolder: false
+    archiveType: zip
+    archiveFile: $(Build.ArtifactStagingDirectory)/staging.zip
+    replaceExistingArchive: true
+  -
+    task: ArchiveFiles@1
+    displayName: Create Production Zip
+    rootFolder: ./public/prod
+    includeRootFolder: false
+    archiveType: zip
+    archiveFile: $(Build.ArtifactStagingDirectory)/prod.zip
+    replaceExistingArchive: true
+  -
+    task: PublishBuildArtifacts@1
+    displayName: Publish Site Content
+    PathtoPublish: $(build.artifactstagingdirectory)/
