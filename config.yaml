@@ -6,6 +6,7 @@ title: A Sysadmin, An SRE, and a DevOps Walk Into a Bar
 permalinks:
   post: /:year/:month/:filename/
 languageCode: "en-us"
+metaDataFormat: yaml
 copyright: "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License"
 rssLimit: 20
 
