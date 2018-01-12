@@ -4,7 +4,7 @@ date: 2018-01-12T07:41:19-08:00
 author: 'Steven Murawski'
 tags: []
 comments: true
-draft: false
+draft: true
 ---
 
 We (the tech industry) have been enablers for IT leadership to focus on "doing just good enough".  The ongoing search for whitepapers and best practice are efforts to insulate themselves from blame and risk of going the wrong path.  
