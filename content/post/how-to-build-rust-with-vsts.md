@@ -8,6 +8,8 @@ title: How to Build a Rust App in VSTS
 
 ---
 
+*Update* [I've got a simpler build phase thanks to YAML build definitions]({{< ref "a-simpler-rust-vsts-build.md" >}})
+
 Thanks to a bit of prompting on Twitter, I've whipped up a **very** basic "Hello World" [Rust](https://www.rust-lang.org/en-US/) example with a Windows (MSVC) and Linux build.
 
 ## Before We Start
