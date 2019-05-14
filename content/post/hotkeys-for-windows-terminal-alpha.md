@@ -39,3 +39,11 @@ I started playing with the new [Windows Terminal](https://github.com/microsoft/T
 * `Alt+8` - Switch to tab 8
 * `Alt+9` - Switch to tab 9
 * `Alt+0` - Switch to tab 10
+
+## Building and configuring the terminal
+
+Rather than duplicate his work, I'll point you to Donovan Brown's posts on getting the terminal project built and running.
+
+* [Building the new Windows Terminal with Visual Studio 2019](http://donovanbrown.com/post/Building-the-new-Windows-Terminal-with-Visual-Studio-2019)
+* [How to add profiles to the new Windows Terminal](http://donovanbrown.com/post/How-to-add-profiles-to-the-new-Windows-Terminal)
+* [Cursor shapes for new Windows Terminal](http://donovanbrown.com/post/Cursor-shapes-for-new-Windows-Terminal)
