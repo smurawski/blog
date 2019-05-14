@@ -11,8 +11,9 @@ draft: false
 
 *These keybindings are subject to change and effective as of May 14, 2019.*
 
-I started playing with the new [Windows Terminal](https://github.com/microsoft/Terminal).  I love hotkeys and live by them. A [bit of spleunking in the code](https://github.com/microsoft/Terminal/blob/6088134832b851c553af791ee17a9b5c0d808385/src/cascadia/TerminalApp/CascadiaSettings.cpp#L167) brought out:
+I started playing with the new [Windows Terminal](https://github.com/microsoft/Terminal).  I love hotkeys and live by them. A [bit of spelunking in the code](https://github.com/microsoft/Terminal/blob/6088134832b851c553af791ee17a9b5c0d808385/src/cascadia/TerminalApp/CascadiaSettings.cpp#L167) brought out:
 
+* `Ctrl+,`                 - Open settings in default editor
 * `Ctrl+T`                 - New default profile tab
 * `Ctrl+W`                 - Close current tab
 * `Ctrl+Tab`               - Next tab
@@ -29,16 +30,16 @@ I started playing with the new [Windows Terminal](https://github.com/microsoft/T
 * `Ctrl+Shift+0`           - New tenth profile tab
 * `Ctrl+Shift+Page Up`     - Scroll up
 * `Ctrl+Shift+Page Down`   - Scroll down
-* `Alt+1` - Switch to tab 1
-* `Alt+2` - Switch to tab 2
-* `Alt+3` - Switch to tab 3
-* `Alt+4` - Switch to tab 4
-* `Alt+5` - Switch to tab 5
-* `Alt+6` - Switch to tab 6
-* `Alt+7` - Switch to tab 7
-* `Alt+8` - Switch to tab 8
-* `Alt+9` - Switch to tab 9
-* `Alt+0` - Switch to tab 10
+* `Alt+2`                  - Switch to tab 2
+* `Alt+1`                  - Switch to tab 1
+* `Alt+3`                  - Switch to tab 3
+* `Alt+4`                  - Switch to tab 4
+* `Alt+5`                  - Switch to tab 5
+* `Alt+6`                  - Switch to tab 6
+* `Alt+7`                  - Switch to tab 7
+* `Alt+8`                  - Switch to tab 8
+* `Alt+9`                  - Switch to tab 9
+* `Alt+0`                  - Switch to tab 10
 
 ## Building and configuring the terminal
 
