@@ -1,5 +1,5 @@
 ---
-title: "Hotkeys for the new Windows Terminal Alpah"
+title: "Hotkeys for the new Windows Terminal Alpha"
 date: 2019-05-14T00:00:00-06:00
 author: 'Steven Murawski'
 tags: []
