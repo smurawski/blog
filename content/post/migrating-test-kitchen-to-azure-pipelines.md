@@ -8,15 +8,15 @@ title: Migrating the Test-Kitchen Project to Azure Pipelines
 
 ---
 
-Last year, [Azure Pipelines announced some benefits for open source projects](https://azure.microsoft.com/en-us/services/devops/pipelines/?WT.mc_id=test_kitchen_migration-blog-stmuraws) like unlimited build minutes and 10 free parallel jobs. After Microsoft Ignite | The Tour slowed down, I had a bit of time free up. I've been involved with the [Test-Kitchen](https://github.com/test-kitchen/test-kitchen) project since my time at Chef. I reached out to some of the other maintainers to see if they'd be interested in moving the project over to Azure Pipelines. They were receptive, especially if we could get the build times down. As a cross-platform project, Test-Kitchen used two CI services to run tests on Windows and Linux. The project would be successful if we could streamline the number of services being used and maintain or improve the build times.
+Last year, [Azure Pipelines](https://github.com/marketplace/azure-pipelines) [announced some benefits for open source projects](https://azure.microsoft.com/en-us/services/devops/pipelines/?WT.mc_id=test_kitchen_migration-blog-stmuraws) including unlimited build minutes and 10 free parallel jobs. After Microsoft Ignite | The Tour slowed down, I had a bit of time free up. I've been involved with the [Test-Kitchen](https://github.com/test-kitchen/test-kitchen) project since my time at Chef. I reached out to some of the other maintainers to see if they'd be interested in moving the project over to Azure Pipelines. They were receptive, especially if we could get the build times down. As a cross-platform project, Test-Kitchen used two CI services to run tests on Windows and Linux. The project would be successful if we could streamline the number of services being used and maintain or improve the build times.
 
 ## Creating The Build Definition
 
 Since they were open to the idea, I began coverting the builds as they were implemented on the other services. Most of the build ported directly command for command. With a bit of (well, a lot of) referencing to [the YAML schema reference](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema?view=azure-devops&tabs=schema&WT.mc_id=test_kitchen_migration-blog-stmuraws), I was able to get a mostly functional build going.
 
-### The First Detour
+### The First Revelation
 
-The first challenge I hit was trying to make a preemptive optimization. I started to break up the Windows build steps in an effort to make those go more quickly. On the previous platform, the Windows build tested one Ruby version and builds took about 12 or 13 minutes. As I separated out the steps, I found that Azure Pipelines workers were fast enough that I could keep all the steps together, as well as run them against multiple Ruby runtimes.  The overall build times for the Windows builds came in a bit over 7 minutes.
+I started under the idea that in order to speed up our builds, I would need to break them up. Ruby on Windows has never been accused of being speedy. I started to break up the Windows build steps in an effort to make those go more quickly. As I began testing the process to build a baseline, I found the builds completing in a reasonable time - 6 or 7 minutes on average. On the previous platform, the Windows build tested one Ruby version and builds took about 12 or 13 minutes. The Azure Pipelines workers were fast enough that I could keep all the steps together. Then, thanks to the generous 10 concurrent build jobs, we could run them against multiple Ruby runtimes.  The overall build times for the Windows builds came in a bit over 7 minutes.
 
 ### Next Up, Upcasing The Environment
 
@@ -39,12 +39,22 @@ sudo echo 'Defaults	secure_path="/opt/hostedtoolcache/Ruby/2.5.5/x64/bin:/usr/lo
 
 It's ugly and I'm sure this will only be a point in time problem. I now had a repeatable build that covered all the same test cases on Windows and Linux.
 
-### Let's Throw In Some Macs Too
+### Let's Throw In Some macOS Builds Too
 
-Since [Azure DevOps has Windows, Linux and Mac hosted agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&WT.mc_id=test_kitchen_migration-blog-stmuraws), and I had the build steps down, I figured I'd add a Mac build job as well.
+Since [Azure DevOps has Windows, Linux, and macOS hosted agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&WT.mc_id=test_kitchen_migration-blog-stmuraws) and I had the build steps down, I figured I'd add a macOS build job as well.
 
-In all, working at it in increments, I spent [about 22 hours experimenting and tweaking the experience to ensure a smooth cutover](https://wakatime.com/@5d9628b4-4d48-4274-9697-46fc5cc0bf42/projects/xajnwoiwsw?start=2019-07-01&end=2019-07-18).  Some of the time was spent digging into future changes, like [using container images](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/container-phases?view=azure-devops&tabs=yaml&WT.mc_id=test_kitchen_migration-blog-stmuraws) to ensure current Ruby versions.
+In all, working at it in increments, I spent [about 22 hours experimenting and tweaking the experience to ensure a smooth cutover](https://wakatime.com/@5d9628b4-4d48-4274-9697-46fc5cc0bf42/projects/xajnwoiwsw?start=2019-07-01&end=2019-07-18). Now, 22 hours may see like a lot to some folks, but I've spent a good portion of my career working on builds for infrastructure and related projects. The differences in configurations, default software, and controls present in different hosted build platforms all provide some interesting opportunities to uncover assumptions about how software will be built and tested. Some of the time was spent digging into future changes, like [using container images](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/container-phases?view=azure-devops&tabs=yaml&WT.mc_id=test_kitchen_migration-blog-stmuraws) to ensure current Ruby versions.
+
+## Results
 
 I'm very grateful to the other maintainers of the Test-Kitchen project for their willingness to explore Azure Pipelines and I think we've got a good experience going.
 
+* Pull request validation finishes about 4 to 6 minutes faster, on average.
+* There's only one build platform to manage
+* We were able to add an additional operating system to the build matrix without adding any additional time
+
+## Going Forward
+
 I'm going to continue to move some plugins that I work on for Test-Kitchen to Azure DevOps and help any other plugin maintainers move as well.
+
+I also would like to explore how to be more involved from a community perspective with the evolution of the hosted build agents via [their GitHub repo](https://github.com/microsoft/azure-pipelines-image-generation). Ensuring that we stay current on Ruby runtimes will help keep the build and test experience relevant.
