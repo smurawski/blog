@@ -12,7 +12,7 @@ Last year, [Azure Pipelines](https://github.com/marketplace/azure-pipelines) [an
 
 ## Creating The Build Definition
 
-Since they were open to the idea, I began coverting the builds as they were implemented on the other services. Most of the build ported directly command for command. With a bit of (well, a lot of) referencing to [the YAML schema reference](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema?view=azure-devops&tabs=schema&WT.mc_id=test_kitchen_migration-blog-stmuraws), I was able to get a mostly functional build going.
+Since they were open to the idea, I began converting the builds as they were implemented on the other services. Most of the build ported directly command for command. With a bit of (well, a lot of) referencing to [the YAML schema reference](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema?view=azure-devops&tabs=schema&WT.mc_id=test_kitchen_migration-blog-stmuraws), I was able to get a mostly functional build going.
 
 ### The First Revelation
 
