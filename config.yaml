@@ -8,7 +8,7 @@ permalinks:
 languageCode: "en-us"
 metaDataFormat: yaml
 copyright: "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License"
-rssLimit: 20
+rssLimit: 10
 
 relativeURLs: false
 googleAnalytics: UA-36317457-1
