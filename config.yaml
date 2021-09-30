@@ -9,6 +9,7 @@ languageCode: "en-us"
 metaDataFormat: yaml
 copyright: "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License"
 rssLimit: 10
+baseURL: "https://stevenmurawski.com"
 
 relativeURLs: false
 googleAnalytics: UA-36317457-1
