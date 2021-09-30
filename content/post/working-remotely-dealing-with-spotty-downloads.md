@@ -13,7 +13,7 @@ Then, I remembered dealing with this while working between remote sites in a pre
 
 Normally, the BITS Transfer commands can handle a bit of interruption and restart, but I'm impatient. I ended up writing a short script in the console to start the transfer, check on the job every couple of minutes and restart it if the job if it's in the `TransientError` state.
 
-```powershell
+```
 $Job = Start-BitsTransfer -Source $MyURLToSomethingOverVPN -Destination video.zip -Dynamic -Asynchronous -TransferPolicy Always -Priority Foreground
 
 $JobState = (Get-BitsTransfer -JobId $Job.Id).jobstate

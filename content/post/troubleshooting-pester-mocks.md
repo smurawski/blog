@@ -47,7 +47,7 @@ Second, Pester needs updated documentation on the topic.  [We aren't the only on
 
 The context block we were troubleshooting looked like:
 
-```powershell
+```
 Context 'Add-VSTeamAccessControlEntry' {
 
   Set-VSTeamDefaultProject -Project Testing

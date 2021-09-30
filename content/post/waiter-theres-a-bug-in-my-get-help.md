@@ -23,7 +23,7 @@ In trying to research the problem, I found that PowerShell crashed ( yes, crashe
 
 Create a module that exports a function
 
-```powershell
+```
 
 $Path = 'c:\users\smurawski\documents\windowspowershell\TestModule.psm1'
 
@@ -40,13 +40,13 @@ Export-ModuleMember -Function Test-One
 
 Import the module
     
-```powershell
+```
 Import-Module TestModule
 ```
     
 Create the proxy module
     
-```powershell
+```
 Get-Module TestModule | 
     New-AssistedModule -ModulePath c:\users\smurawski\documents\windowspowershell\TestAssisted
 ```
@@ -54,13 +54,13 @@ Get-Module TestModule |
     
 Import the proxy module
     
-```powershell
+```
 Import-Module TestAssisted
 ```
     
 Try to Get-Help for Test-One (shell will crash here)
     
-```powershell
+```
 Get-Help test-one
 ```
 

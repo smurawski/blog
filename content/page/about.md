@@ -3,7 +3,9 @@ title: About Steven Murawski
 permalink: /page/about
 ---
 
- Steven Murawski is a Cloud Advocate focused on DevOps, Site Reliability Engineering, and other modern operational concepts. Steven is a founding member of the [League of Extraordinary Cloud DevOps Advocates](https://aka.ms/TheLeague)).  Steven has worked on both the Dev and Ops sides of the house, most recently as a Prinicpal Engineer at Chef, building tools for operating applications and infrastructure at scale and velocity.
+Steven Murawski is a Principal Cloud Advocate focused on Cloud Native solutions.
+
+Steven's background is in DevOps, Site Reliability Engineering, and other modern operational concepts. Steven is a founding member of the [League of Extraordinary Cloud DevOps Advocates](https://aka.ms/TheLeague)).  Steven has worked on both the Dev and Ops sides of the house, most recently as a Principal Engineer at Chef, building tools for operating applications and infrastructure at scale and velocity.
 
 Steven followed the traditional path to IT.  For 8 years he owned a garden center, flower shop and landscape business.  From there, Steven went back to school for Police Science, while working as a police clerk, dispatcher, and auxiliary officer.  At the police department, Steven got into IT by helping to administer the domain and applications, as well as supporting investigations via forensicly examining electronic media and providing technical support.
 

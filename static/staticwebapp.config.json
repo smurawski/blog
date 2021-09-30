@@ -1,0 +1,31 @@
+{
+    "routes": [
+        {
+            "route": "/about",
+            "rewrite": "/page/about"
+        },
+        {
+            "route": "about/index.html",
+            "rewrite": "/page/about"
+        },
+        {
+            "route": "/github",
+            "redirect": "https://github.com/smurawski"
+        },
+        {
+            "route": "/feed",
+            "rewrite": "/index.xml"
+        },
+        {
+            "route": "/feed.xml",
+            "rewrite": "/index.xml"
+        },
+        {
+            "route": "devops-reading-list",
+            "rewrite": "/page/devops-reading-list"
+        }
+    ],
+    "navigationFallback": {
+        "rewrite": "/index.html"
+    }
+}
