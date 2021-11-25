@@ -1,0 +1,12 @@
+{
+    "routes": [
+        {
+            "route": "/about",
+            "rewrite": "/page/about"
+          },
+          {
+            "route": "/github",
+            "redirect": "https://github.com/smurawski"
+          }
+    ]
+}
