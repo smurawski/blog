@@ -1,4 +1,4 @@
-baseURL = "https://stevenmurawski.com"
+baseURL = "https://stevenmurawski.com/"
 theme = "ghostwriter"
 disablePathToLower = true
 title = "A Sysadmin, An SRE, and a DevOps Walk Into a Bar"
