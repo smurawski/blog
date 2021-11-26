@@ -19,7 +19,7 @@ jobs:
         with:
           version: latest
           extended: false
-          args: --baseURL='https://stevenmurawski.com/'
+          args: --baseURL=https://stevenmurawski.com/
       - name: Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v0.0.1-preview
