@@ -3,7 +3,7 @@ title: About Steven Murawski
 permalink: /page/about
 ---
 
-Steven Murawski is a Principal Cloud Advocate focused on Cloud Native solutions.
+Steven Murawski is a Principal Cloud Advocate focused on Cloud Native solutions with a special interest in server-side WebAssembly workloads.
 
 Steven's background is in DevOps, Site Reliability Engineering, and other modern operational concepts. Steven is a founding member of the [League of Extraordinary Cloud DevOps Advocates](https://aka.ms/TheLeague)).  Steven has worked on both the Dev and Ops sides of the house, most recently as a Principal Engineer at Chef, building tools for operating applications and infrastructure at scale and velocity.
 
